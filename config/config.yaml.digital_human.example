@@ -1,0 +1,15 @@
+# 数字人视频生成配置示例
+# 复制此配置到 config.yaml 中
+
+digital_human:
+  enabled: false  # 是否启用数字人视频生成
+  platform: "kreadoai"  # 平台选择：kreadoai, aliyun, omnihuman
+  api_key: ""  # API密钥（优先从环境变量 DIGITAL_HUMAN_API_KEY 读取）
+  api_secret: ""  # API密钥（如需要，优先从环境变量 DIGITAL_HUMAN_API_SECRET 读取）
+  api_base: ""  # API基础URL（使用默认值时可留空）
+  avatar_image: "avatars/default.jpg"  # 数字人形象图片路径（必需）
+  avatar_id: ""  # 平台提供的默认形象ID（可选，如果使用平台默认形象）
+  default_avatar_id: ""  # 平台默认形象ID（如KreadoAI提供的模板形象）
+  video_quality: "720p"  # 视频质量：480p, 720p, 1080p
+  video_resolution: "720p"  # 视频分辨率（阿里云平台使用）
+  output_format: "mp4"  # 输出格式：mp4

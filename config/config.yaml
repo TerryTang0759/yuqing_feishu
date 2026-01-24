@@ -1,0 +1,119 @@
+app:
+  # 将下面的 URL 替换为您自己的 GitHub Pages 地址
+  base_url: "https://joyce677.github.io/TrendRadar"
+  version_check_url: "https://raw.githubusercontent.com/sansan0/TrendRadar/refs/heads/master/version"
+  show_version_update: true # 控制显示版本更新提示，改成 false 将不接受新版本提示
+
+crawler:
+  request_interval: 1000 # 请求间隔(毫秒)
+  enable_crawler: true # 是否启用爬取新闻功能，false 时直接停止程序
+  use_proxy: false # 是否启用代理，false 时为关闭
+  default_proxy: "http://127.0.0.1:10086"
+
+# 🔸 daily（当日汇总模式）
+#   • 推送时机：按时推送
+#   • 显示内容：当日所有匹配新闻 + 新增新闻区域
+#   • 适用场景：日报总结、全面了解当日热点趋势
+#
+# 🔸 current（当前榜单模式）
+#   • 推送时机：按时推送
+#   • 显示内容：当前榜单匹配新闻 + 新增新闻区域
+#   • 适用场景：实时热点追踪、了解当前最火的内容
+#
+# 🔸 incremental（增量监控模式）
+#   • 推送时机：有新增才推送
+#   • 显示内容：新出现的匹配频率词新闻
+#   • 适用场景：避免重复信息干扰
+
+report:
+  mode: "daily" # 可选: "daily"|"incremental"|"current"
+  rank_threshold: 5 # 排名高亮阈值
+
+notification:
+  enable_notification: true # 是否启用通知功能，false 时不发送手机通知
+  message_batch_size: 4000 # 消息分批大小（字节）(这个配置别动)
+  batch_send_interval: 1 # 批次发送间隔（秒）
+  feishu_message_separator: "━━━━━━━━━━━━━━━━━━━" # feishu 消息分割线
+
+  silent_push:
+    enabled: false  # 是否启用静默推送模式，如果 true，则启用
+    # 因为我们白嫖的 github 服务器执行时间不稳定，所以时间范围要根据实际尽可能大一点，留足 2 小时
+    # 如果你想寻求稳定的按时的推送，建议部署在个人的服务器上
+    time_range:
+      start: "20:00"  # 推送时间范围开始（北京时间）
+      end: "22:00"    # 推送时间范围结束（北京时间）
+    once_per_day: true  # 每天在时间范围内只推送一次，如果 false，则时间范围内每次执行都推送一次
+    push_record_retention_days: 7  # 推送记录保留天数
+
+  # 请务必妥善保管好 webhooks，不要公开
+  # 如果你以 fork 的方式将本项目部署在 GitHub 上，请勿在此填写任何 webhooks，而是将 webhooks 填入 GitHub Secret
+  # 不然轻则手机上收到奇怪的广告推送，重则存在一定的安全隐患
+  webhooks:
+    feishu_url: "https://open.feishu.cn/open-apis/bot/v2/hook/90f6c3f0-7db8-4444-a32a-224147f77728" # 飞书机器人的 webhook URL
+    dingtalk_url: "" # 钉钉机器人的 webhook URL
+    wework_url: "" # 企业微信机器人的 webhook URL
+    telegram_bot_token: "" # Telegram Bot Token
+    telegram_chat_id: "" # Telegram Chat ID
+
+# 用于让关注度更高的新闻在更前面显示，合起来是 1 就行
+weight:
+  rank_weight: 0.6 # 排名权重
+  frequency_weight: 0.3 # 频次权重
+  hotness_weight: 0.1 # 热度权重
+
+# AI口播稿生成配置（可选功能）
+# 支持 OpenAI、DeepSeek、Claude 等大模型API
+# ⚠️ 安全提示：建议使用环境变量配置API密钥，不要直接写在配置文件中
+# 设置环境变量：export AI_API_KEY="your_api_key"
+ai_script:
+  enabled: true  # 是否启用AI口播稿生成
+  api_type: "deepseek"  # 可选: openai, deepseek, claude, custom
+  api_key: ""  # API密钥（优先从环境变量 AI_API_KEY 读取，未设置时使用此值）
+  api_base: ""  # API基础URL（可选，使用默认值时可留空）
+  model: "deepseek-chat"  # 模型名称
+  max_tokens: 2000  # 最大token数（已增加到2000，支持更详细的口播稿）
+  temperature: 0.7  # 创造性（0-1，越高越有创造性）
+
+# TTS语音合成配置（可选功能）
+# 支持 edge-tts（推荐，免费，质量好）、gTTS、pyttsx3
+# 安装命令：
+#   edge-tts: pip install edge-tts
+#   gTTS: pip install gtts
+#   pyttsx3: pip install pyttsx3（需要额外配置中文语音）
+tts:
+  enabled: true  # 是否启用TTS语音合成
+  engine: "edge-tts"  # 可选: edge-tts, gtts, pyttsx3
+  voice: "zh-CN-XiaoxiaoNeural"  # edge-tts中文语音（其他引擎使用默认）
+  # edge-tts中文语音列表：
+  #   zh-CN-XiaoxiaoNeural（女声，温柔）
+  #   zh-CN-YunxiNeural（男声，沉稳）
+  #   zh-CN-YunyangNeural（男声，新闻风格）
+  #   查看所有语音：edge-tts --list-voices
+  rate: "+30%"  # 语速（-50% 到 +100%），+30%为1.3倍速
+  output_format: "mp3"  # 输出格式: mp3, wav（pyttsx3只支持wav）
+
+# 增加无聊的小知识
+# 这里的 name 你可以定义任意名称，只具有显示作用，不会影响数据的处理
+platforms:
+  - id: "toutiao"
+    name: "今日头条"
+  - id: "baidu"
+    name: "百度热搜"
+  - id: "wallstreetcn-hot"
+    name: "华尔街见闻"
+  - id: "thepaper"
+    name: "澎湃新闻"
+  - id: "bilibili-hot-search"
+    name: "bilibili 热搜"
+  - id: "cls-hot"
+    name: "财联社热门"
+  - id: "ifeng"
+    name: "凤凰网"
+  - id: "tieba"
+    name: "贴吧"
+  - id: "weibo"
+    name: "微博"
+  - id: "douyin"
+    name: "抖音"
+  - id: "zhihu"
+    name: "知乎"
