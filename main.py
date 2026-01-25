@@ -2950,27 +2950,22 @@ def send_to_webhooks(
 
     # 发送到飞书
     if feishu_url:
-        # 尝试读取口播稿文本（如果存在）
+        # 优先使用当天口播稿，避免发送历史日期（如“周六”）的旧稿
         script_text = None
         script_file = None
         audio_file = None
-        
-        # 查找最新的口播稿文件
-        output_dir = Path("output")
-        if output_dir.exists():
-            script_files = sorted(output_dir.rglob("script/口播稿.txt"), key=lambda p: p.stat().st_mtime, reverse=True)
-            if script_files:
-                script_file = script_files[0]
-                try:
-                    with open(script_file, "r", encoding="utf-8") as f:
-                        script_text = f.read()
-                except:
-                    pass
-                
-                # 查找对应的音频文件
-                audio_file = script_file.parent / "口播稿.mp3"
-                if not audio_file.exists():
-                    audio_file = None
+        today_folder = format_date_folder()
+        script_path_today = Path("output") / today_folder / "html" / "script" / "口播稿.txt"
+        if script_path_today.exists():
+            try:
+                with open(script_path_today, "r", encoding="utf-8") as f:
+                    script_text = f.read()
+                script_file = script_path_today
+                audio_path = script_path_today.parent / "口播稿.mp3"
+                if audio_path.exists():
+                    audio_file = audio_path
+            except Exception:
+                pass
         
         results["feishu"] = send_to_feishu(
             feishu_url, report_data, report_type, update_info_to_send, proxy_url, mode, script_text
