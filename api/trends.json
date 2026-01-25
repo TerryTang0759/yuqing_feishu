@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-01-25T14:07:18.576851+08:00",
-  "total_titles_processed": 316,
+  "generated_at": "2026-01-25T14:10:45.312590+08:00",
+  "total_titles_processed": 318,
   "failed_sources": [],
   "trends": [
     {
@@ -12,11 +12,12 @@
           "url": "https://www.zhihu.com/question/1998457273891120214",
           "source": "知乎",
           "ranks": [
-            5
+            5,
+            2
           ],
           "is_new": false,
-          "appearance_count": 5,
-          "time_info": "[13时52分 ~ 14时07分]"
+          "appearance_count": 6,
+          "time_info": "[13时52分 ~ 14时10分]"
         },
         {
           "title": "机构密集调研AI营销概念股！龙头月内涨近六成，近一个月接待量居前热门股名单来了",
@@ -26,8 +27,8 @@
             7
           ],
           "is_new": false,
-          "appearance_count": 5,
-          "time_info": "[13时52分 ~ 14时07分]"
+          "appearance_count": 6,
+          "time_info": "[13时52分 ~ 14时10分]"
         },
         {
           "title": "AI为何会一本正经“胡说八道”",
@@ -37,8 +38,8 @@
             8
           ],
           "is_new": false,
-          "appearance_count": 5,
-          "time_info": "[13时52分 ~ 14时07分]"
+          "appearance_count": 6,
+          "time_info": "[13时52分 ~ 14时10分]"
         },
         {
           "title": "对谈亲手训练GPT4的研究员",
@@ -49,8 +50,8 @@
             19
           ],
           "is_new": false,
-          "appearance_count": 5,
-          "time_info": "[13时52分 ~ 14时07分]"
+          "appearance_count": 6,
+          "time_info": "[13时52分 ~ 14时10分]"
         },
         {
           "title": "北京市将加强全学段人工智能赋能教育",
@@ -60,8 +61,8 @@
             12
           ],
           "is_new": false,
-          "appearance_count": 3,
-          "time_info": "[13时53分 ~ 14时07分]"
+          "appearance_count": 4,
+          "time_info": "[13时53分 ~ 14时10分]"
         },
         {
           "title": "北京市将全面实施“人工智能+”行动，建设国家人工智能应用中试基地",
@@ -71,8 +72,8 @@
             13
           ],
           "is_new": false,
-          "appearance_count": 3,
-          "time_info": "[13时53分 ~ 14时07分]"
+          "appearance_count": 4,
+          "time_info": "[13时53分 ~ 14时10分]"
         }
       ]
     },
@@ -88,8 +89,8 @@
             1
           ],
           "is_new": false,
-          "appearance_count": 5,
-          "time_info": "[13时52分 ~ 14时07分]"
+          "appearance_count": 6,
+          "time_info": "[13时52分 ~ 14时10分]"
         },
         {
           "title": "金价波动",
@@ -100,8 +101,8 @@
             7
           ],
           "is_new": false,
-          "appearance_count": 5,
-          "time_info": "[13时52分 ~ 14时07分]"
+          "appearance_count": 6,
+          "time_info": "[13时52分 ~ 14时10分]"
         },
         {
           "title": "87岁老人出售30年前买的黄金",
@@ -111,8 +112,8 @@
             21
           ],
           "is_new": false,
-          "appearance_count": 5,
-          "time_info": "[13时52分 ~ 14时07分]"
+          "appearance_count": 6,
+          "time_info": "[13时52分 ~ 14时10分]"
         },
         {
           "title": "女子买60克黄金轮胎手镯后悔买晚了",
@@ -122,8 +123,8 @@
             21
           ],
           "is_new": false,
-          "appearance_count": 5,
-          "time_info": "[13时52分 ~ 14时07分]"
+          "appearance_count": 6,
+          "time_info": "[13时52分 ~ 14时10分]"
         },
         {
           "title": "癌症老人出售30年前买的黄金做公益",
@@ -133,8 +134,8 @@
             27
           ],
           "is_new": false,
-          "appearance_count": 5,
-          "time_info": "[13时52分 ~ 14时07分]"
+          "appearance_count": 6,
+          "time_info": "[13时52分 ~ 14时10分]"
         },
         {
           "title": "金价",
@@ -144,8 +145,8 @@
             12
           ],
           "is_new": false,
-          "appearance_count": 2,
-          "time_info": "[14时06分 ~ 14时07分]"
+          "appearance_count": 3,
+          "time_info": "[14时06分 ~ 14时10分]"
         }
       ]
     },
@@ -161,8 +162,8 @@
             3
           ],
           "is_new": false,
-          "appearance_count": 5,
-          "time_info": "[13时52分 ~ 14时07分]"
+          "appearance_count": 6,
+          "time_info": "[13时52分 ~ 14时10分]"
         },
         {
           "title": "AI应用龙头月内涨超100% 梳理AI应用收入及占比居前A股名单",
@@ -172,8 +173,8 @@
             5
           ],
           "is_new": false,
-          "appearance_count": 5,
-          "time_info": "[13时52分 ~ 14时07分]"
+          "appearance_count": 6,
+          "time_info": "[13时52分 ~ 14时10分]"
         },
         {
           "title": "应声20CM涨停！A股年报行情纵深推进，14家上市公司净利最高同比预增超400%",
@@ -183,8 +184,8 @@
             13
           ],
           "is_new": false,
-          "appearance_count": 5,
-          "time_info": "[13时52分 ~ 14时07分]"
+          "appearance_count": 6,
+          "time_info": "[13时52分 ~ 14时10分]"
         },
         {
           "title": "创业板新突破：首家未盈利企业IPO注册获批",
@@ -194,8 +195,8 @@
             22
           ],
           "is_new": false,
-          "appearance_count": 3,
-          "time_info": "[13时53分 ~ 14时07分]"
+          "appearance_count": 4,
+          "time_info": "[13时53分 ~ 14时10分]"
         }
       ]
     },
@@ -211,8 +212,8 @@
             1
           ],
           "is_new": false,
-          "appearance_count": 2,
-          "time_info": "[14时01分 ~ 14时07分]"
+          "appearance_count": 3,
+          "time_info": "[14时01分 ~ 14时10分]"
         },
         {
           "title": "沙特政府数据：沙特11月出口额增长10.0%，其中石油出口额增长5.4%。",
@@ -222,8 +223,8 @@
             2
           ],
           "is_new": false,
-          "appearance_count": 2,
-          "time_info": "[14时01分 ~ 14时07分]"
+          "appearance_count": 3,
+          "time_info": "[14时01分 ~ 14时10分]"
         },
         {
           "title": "特朗普称已获取7艘扣押油轮石油",
@@ -233,8 +234,8 @@
             15
           ],
           "is_new": false,
-          "appearance_count": 3,
-          "time_info": "[13时53分 ~ 14时07分]"
+          "appearance_count": 4,
+          "time_info": "[13时53分 ~ 14时10分]"
         },
         {
           "title": "利比亚与道达尔、康菲石油签署协议，希望借机提升石油产能",
@@ -244,8 +245,8 @@
             27
           ],
           "is_new": false,
-          "appearance_count": 3,
-          "time_info": "[13时53分 ~ 14时07分]"
+          "appearance_count": 4,
+          "time_info": "[13时53分 ~ 14时10分]"
         }
       ]
     },
@@ -261,8 +262,8 @@
             2
           ],
           "is_new": false,
-          "appearance_count": 3,
-          "time_info": "[13时53分 ~ 14时07分]"
+          "appearance_count": 4,
+          "time_info": "[13时53分 ~ 14时10分]"
         },
         {
           "title": "【早报】黄仁勋今年首次访华；中科宇航已完成IPO辅导",
@@ -272,8 +273,8 @@
             6
           ],
           "is_new": false,
-          "appearance_count": 5,
-          "time_info": "[13时52分 ~ 14时07分]"
+          "appearance_count": 6,
+          "time_info": "[13时52分 ~ 14时10分]"
         }
       ]
     },
@@ -289,8 +290,8 @@
             1
           ],
           "is_new": false,
-          "appearance_count": 5,
-          "time_info": "[13时52分 ~ 14时07分]"
+          "appearance_count": 6,
+          "time_info": "[13时52分 ~ 14时10分]"
         },
         {
           "title": "【早报】公募业绩基准新规落地；证监会披露2026年的“1号”罚单",
@@ -300,8 +301,8 @@
             8
           ],
           "is_new": false,
-          "appearance_count": 5,
-          "time_info": "[13时52分 ~ 14时07分]"
+          "appearance_count": 6,
+          "time_info": "[13时52分 ~ 14时10分]"
         }
       ]
     },
@@ -317,8 +318,8 @@
             1
           ],
           "is_new": false,
-          "appearance_count": 5,
-          "time_info": "[13时52分 ~ 14时07分]"
+          "appearance_count": 6,
+          "time_info": "[13时52分 ~ 14时10分]"
         },
         {
           "title": "特朗普威胁“100%关税”，加拿大总理卡尼号召民众“购买国货”",
@@ -328,8 +329,8 @@
             10
           ],
           "is_new": false,
-          "appearance_count": 5,
-          "time_info": "[13时52分 ~ 14时07分]"
+          "appearance_count": 6,
+          "time_info": "[13时52分 ~ 14时10分]"
         }
       ]
     },
@@ -346,8 +347,8 @@
             5
           ],
           "is_new": false,
-          "appearance_count": 3,
-          "time_info": "[13时53分 ~ 14时07分]"
+          "appearance_count": 4,
+          "time_info": "[13时53分 ~ 14时10分]"
         },
         {
           "title": "特朗普政府计划向美国稀土公司（USA Rare Earth）注资16亿美元，以加强关键矿产资源的供应保障。美国政府将获得美国稀土公司10%的股份。（英国金融时报）",
@@ -357,8 +358,8 @@
             18
           ],
           "is_new": false,
-          "appearance_count": 3,
-          "time_info": "[13时53分 ~ 14时07分]"
+          "appearance_count": 4,
+          "time_info": "[13时53分 ~ 14时10分]"
         }
       ]
     },
@@ -374,8 +375,8 @@
             11
           ],
           "is_new": false,
-          "appearance_count": 5,
-          "time_info": "[13时52分 ~ 14时07分]"
+          "appearance_count": 6,
+          "time_info": "[13时52分 ~ 14时10分]"
         }
       ]
     },
@@ -391,8 +392,8 @@
             16
           ],
           "is_new": false,
-          "appearance_count": 5,
-          "time_info": "[13时52分 ~ 14时07分]"
+          "appearance_count": 6,
+          "time_info": "[13时52分 ~ 14时10分]"
         }
       ]
     },
@@ -408,8 +409,8 @@
             18
           ],
           "is_new": false,
-          "appearance_count": 5,
-          "time_info": "[13时52分 ~ 14时07分]"
+          "appearance_count": 6,
+          "time_info": "[13时52分 ~ 14时10分]"
         }
       ]
     },
@@ -425,8 +426,8 @@
             4
           ],
           "is_new": false,
-          "appearance_count": 5,
-          "time_info": "[13时52分 ~ 14时07分]"
+          "appearance_count": 6,
+          "time_info": "[13时52分 ~ 14时10分]"
         }
       ]
     },
@@ -443,8 +444,8 @@
             13
           ],
           "is_new": false,
-          "appearance_count": 3,
-          "time_info": "[13时53分 ~ 14时07分]"
+          "appearance_count": 4,
+          "time_info": "[13时53分 ~ 14时10分]"
         }
       ]
     }
