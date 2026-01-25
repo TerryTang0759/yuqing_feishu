@@ -2477,8 +2477,12 @@ def render_feishu_content(
         # 限制长度，避免消息过长
         if len(script_text) > 2000:
             text_content += script_text[:2000] + "\n\n...（内容较长，已截断）"
+            print(f"⚠️ 口播稿内容较长（{len(script_text)} 字），已截断至2000字")
         else:
             text_content += script_text
+        print(f"✅ 口播稿已添加到飞书消息内容中（{len(script_text)} 字）")
+    else:
+        print("⚠️ render_feishu_content: 未提供口播稿文本（script_text=None）")
 
     return text_content
 
@@ -2961,11 +2965,20 @@ def send_to_webhooks(
                 with open(script_path_today, "r", encoding="utf-8") as f:
                     script_text = f.read()
                 script_file = script_path_today
+                print(f"✅ 已读取当天口播稿: {script_path_today} ({len(script_text)} 字)")
                 audio_path = script_path_today.parent / "口播稿.mp3"
                 if audio_path.exists():
                     audio_file = audio_path
-            except Exception:
-                pass
+                    print(f"✅ 找到音频文件: {audio_path}")
+            except Exception as e:
+                print(f"⚠️ 读取口播稿文件失败: {script_path_today}, 错误: {e}")
+        else:
+            print(f"⚠️ 当天口播稿文件不存在: {script_path_today}")
+        
+        if script_text:
+            print(f"📢 口播稿将包含在飞书消息中（{len(script_text)} 字）")
+        else:
+            print("⚠️ 未找到口播稿，飞书消息将不包含口播稿内容")
         
         results["feishu"] = send_to_feishu(
             feishu_url, report_data, report_type, update_info_to_send, proxy_url, mode, script_text
@@ -3049,13 +3062,11 @@ def send_to_feishu(
     )
 
     now = get_beijing_time()
+    # 飞书 webhook 的 content 字段只能包含 text，不能包含其他自定义字段
     payload = {
         "msg_type": "text",
         "content": {
-            "total_titles": total_titles,
-            "timestamp": now.strftime("%Y-%m-%d %H:%M:%S"),
-            "report_type": report_type,
-            "text": text_content,
+            "text": text_content
         },
     }
 

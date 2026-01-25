@@ -28,6 +28,8 @@
 | **你当前使用的值** | `sk-d704972fa49f4acfb83eaf9b1ad8e482` |
 | **用途** | 调用 AI 生成财经新闻口播稿 |
 
+**⚠️ 名称必须为 `AI_API_KEY`，不能是 `DEEPSEEK_API_KEY`**。workflow 和脚本只读取 `AI_API_KEY`，填错会导致「AI API密钥未配置」。
+
 ---
 
 ## 🔧 可选配置（2 个）
@@ -68,9 +70,15 @@
 ## 🔍 检查清单
 
 - [ ] `FEISHU_WEBHOOK_URL` = `https://open.feishu.cn/open-apis/bot/v2/hook/90f6c3f0-7db8-4444-a32a-224147f77728`
-- [ ] `AI_API_KEY` = `sk-d704972fa49f4acfb83eaf9b1ad8e482`
+- [ ] `AI_API_KEY` = 你的 DeepSeek API 密钥（**不是** `DEEPSEEK_API_KEY`）
 - [ ] `AI_API_TYPE` = `deepseek`（可选）
 - [ ] `AI_MODEL` = `deepseek-chat`（可选）
+
+### 常见错误
+
+| 现象 | 原因 | 处理 |
+|------|------|------|
+| 日志里出现「AI API密钥未配置」 | 添加了 `DEEPSEEK_API_KEY` 而非 `AI_API_KEY` | 新建 Secret **`AI_API_KEY`**，值为你的 DeepSeek 密钥；可删除 `DEEPSEEK_API_KEY` |
 
 ---
 
