@@ -120,6 +120,6 @@ if __name__ == "__main__":
         print("用法:")
         print("  python3 export_script.py <口播稿文件路径>")
         print("\n示例:")
-        print("  python3 export_script.py output/2026年01月17日/script/口播稿.txt")
+        print("  python3 export_script.py output/YYYY年MM月DD日/html/script/口播稿.txt")
         print("\n列出所有口播稿:")
         list_all_scripts()

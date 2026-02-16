@@ -37,7 +37,11 @@ def test_tts_script():
     """测试完整口播稿TTS"""
     print("\n=== 测试2: 完整口播稿TTS ===")
     
-    script_file = "output/2026年01月17日/script/口播稿.txt"
+    # 自动使用当天口播稿
+    import pytz
+    from datetime import datetime
+    today = datetime.now(pytz.timezone("Asia/Shanghai")).strftime("%Y年%m月%d日")
+    script_file = f"output/{today}/html/script/口播稿.txt"
     script_path = Path(script_file)
     
     if not script_path.exists():
@@ -110,7 +114,7 @@ if __name__ == "__main__":
         print("✅ 所有测试通过！")
         print(f"\n📁 生成的音频文件：")
         print(f"   • test_short.mp3 - 短文本测试")
-        audio_file = Path("output/2026年01月17日/script/口播稿.mp3")
+        audio_file = Path(f"output/{today}/html/script/口播稿.mp3")
         if audio_file.exists():
             print(f"   • {audio_file} - 完整口播稿")
     else:

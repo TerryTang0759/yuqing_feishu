@@ -28,7 +28,7 @@ def test_api():
     if not api_key:
         print("❌ 未找到 AI_API_KEY 环境变量")
         print("\n请设置环境变量：")
-        print("export AI_API_KEY='sk-d704972fa49f4acfb83eaf9b1ad8e482'")
+        print("export AI_API_KEY='your_api_key_here'")
         print("export AI_API_TYPE='deepseek'")
         print("export AI_MODEL='deepseek-chat'")
         return False

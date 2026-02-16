@@ -110,6 +110,16 @@ def load_config():
         "PLATFORMS": config_data["platforms"],
     }
 
+    # TTS语音合成配置
+    tts_config = config_data.get("tts", {})
+    config["TTS"] = {
+        "enabled": tts_config.get("enabled", False),
+        "engine": tts_config.get("engine", "edge-tts"),
+        "voice": tts_config.get("voice", "zh-CN-XiaoxiaoNeural"),
+        "rate": tts_config.get("rate", "+0%"),
+        "output_format": tts_config.get("output_format", "mp3"),
+    }
+
     # AI口播稿配置（环境变量优先）
     ai_config = config_data.get("ai_script", {})
     config["AI_SCRIPT"] = {
@@ -3057,12 +3067,8 @@ def send_to_feishu(
     headers = {"Content-Type": "application/json"}
 
     text_content = render_feishu_content(report_data, update_info, mode, script_text)
-    total_titles = sum(
-        len(stat["titles"]) for stat in report_data["stats"] if stat["count"] > 0
-    )
 
-    now = get_beijing_time()
-    # 飞书 webhook 的 content 字段只能包含 text，不能包含其他自定义字段
+    # 飞书 webhook 的 content 只能包含 text 字段
     payload = {
         "msg_type": "text",
         "content": {

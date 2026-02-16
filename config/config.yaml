@@ -49,7 +49,7 @@ notification:
   # 如果你以 fork 的方式将本项目部署在 GitHub 上，请勿在此填写任何 webhooks，而是将 webhooks 填入 GitHub Secret
   # 不然轻则手机上收到奇怪的广告推送，重则存在一定的安全隐患
   webhooks:
-    feishu_url: "https://open.feishu.cn/open-apis/bot/v2/hook/90f6c3f0-7db8-4444-a32a-224147f77728" # 飞书机器人的 webhook URL
+    feishu_url: "" # 飞书机器人的 webhook URL（请通过 GitHub Secrets 或环境变量配置，勿在此填写）
     dingtalk_url: "" # 钉钉机器人的 webhook URL
     wework_url: "" # 企业微信机器人的 webhook URL
     telegram_bot_token: "" # Telegram Bot Token

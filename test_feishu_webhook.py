@@ -7,8 +7,9 @@ import requests
 import json
 from pathlib import Path
 
-# 飞书webhook URL
-WEBHOOK_URL = "https://open.feishu.cn/open-apis/bot/v2/hook/90f6c3f0-7db8-4444-a32a-224147f77728"
+# 飞书webhook URL（从环境变量读取，避免明文泄露）
+import os
+WEBHOOK_URL = os.environ.get("FEISHU_WEBHOOK_URL", "")
 
 def test_simple_message():
     """测试发送简单文本消息"""
@@ -53,7 +54,11 @@ def test_script_message():
     print("\n=== 测试2: 发送口播稿消息 ===")
     
     # 读取口播稿
-    script_file = Path("output/2026年01月17日/script/口播稿.txt")
+    # 自动查找最新的口播稿
+    import pytz
+    from datetime import datetime
+    today = datetime.now(pytz.timezone("Asia/Shanghai")).strftime("%Y年%m月%d日")
+    script_file = Path(f"output/{today}/html/script/口播稿.txt")
     if not script_file.exists():
         print(f"⚠️ 口播稿文件不存在: {script_file}")
         return False
@@ -72,7 +77,7 @@ def test_script_message():
     base_url = "https://joyce677.github.io/TrendRadar"
     audio_file = script_file.parent / "口播稿.mp3"
     if audio_file.exists() and base_url:
-        relative_path = f"output/2026年01月17日/script/口播稿.mp3"
+        relative_path = f"output/{today}/html/script/口播稿.mp3"
         audio_url = f"{base_url}/{relative_path}"
         content += f"\n\n🎵 **音频文件**: [点击收听]({audio_url})"
     
