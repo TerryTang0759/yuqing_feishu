@@ -1,5 +1,6 @@
 requests==2.32.4
 pytz==2025.2
 PyYAML==6.0.2
+python-dotenv>=1.0.0
 playwright~=1.45.0
-edge-tts>=6.1.0  # TTS语音合成功能（可选，如不需要TTS功能可删除此行）
+edge-tts>=6.1.0

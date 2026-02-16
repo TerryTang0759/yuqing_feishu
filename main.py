@@ -15,6 +15,13 @@ import pytz
 import requests
 import yaml
 
+# 自动加载 .env 文件（本地开发用，GitHub Actions 通过 Secrets 注入）
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass
+
 # API 功能为可选依赖，尝试导入 Flask
 try:
     from flask import Flask, jsonify, send_from_directory
