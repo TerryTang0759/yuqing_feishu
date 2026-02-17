@@ -2409,8 +2409,37 @@ def render_feishu_content(
     """渲染飞书内容"""
     text_content = ""
 
+    # ==================== 第一部分：AI播报汇总（优先展示） ====================
+    if script_text:
+        text_content += "📢 **AI财经热点新闻汇总播报**\n\n"
+        if len(script_text) > 2000:
+            text_content += script_text[:2000] + "\n\n...（内容较长，已截断）"
+            print(f"⚠️ 口播稿内容较长（{len(script_text)} 字），已截断至2000字")
+        else:
+            text_content += script_text
+
+        # 添加音频链接
+        if audio_file and audio_file.exists():
+            base_url = CONFIG.get("BASE_URL", "")
+            if base_url:
+                from urllib.parse import quote
+                relative_path = str(audio_file).replace("\\", "/")
+                if "output/" in relative_path:
+                    relative_path = "output/" + relative_path.split("output/", 1)[1]
+                encoded_path = "/".join(quote(segment, safe="") for segment in relative_path.split("/"))
+                audio_url = f"{base_url.rstrip('/')}/{encoded_path}"
+                text_content += f"\n\n🎵 **音频文件**: [点击收听]({audio_url})"
+                print(f"✅ 音频链接已添加到飞书消息中")
+
+        print(f"✅ 口播稿已添加到飞书消息内容中（{len(script_text)} 字）")
+    else:
+        print("⚠️ render_feishu_content: 未提供口播稿文本（script_text=None）")
+
+    # ==================== 第二部分：热点词汇统计（详细链接） ====================
+    stats_content = ""
+
     if report_data["stats"]:
-        text_content += f"📊 **热点词汇统计**\n\n"
+        stats_content += f"📊 **热点词汇统计**\n\n"
 
     total_count = len(report_data["stats"])
 
@@ -2421,43 +2450,43 @@ def render_feishu_content(
         sequence_display = f"[{i + 1}/{total_count}]"
 
         if count >= 10:
-            text_content += f"🔥 {sequence_display} **{word}** : {count} 条\n\n"
+            stats_content += f"🔥 {sequence_display} **{word}** : {count} 条\n\n"
         elif count >= 5:
-            text_content += f"📈 {sequence_display} **{word}** : {count} 条\n\n"
+            stats_content += f"📈 {sequence_display} **{word}** : {count} 条\n\n"
         else:
-            text_content += f"📌 {sequence_display} **{word}** : {count} 条\n\n"
+            stats_content += f"📌 {sequence_display} **{word}** : {count} 条\n\n"
 
         for j, title_data in enumerate(stat["titles"], 1):
             formatted_title = format_title_for_platform(
                 "feishu", title_data, show_source=True
             )
-            text_content += f"  {j}. {formatted_title}\n"
+            stats_content += f"  {j}. {formatted_title}\n"
 
             if j < len(stat["titles"]):
-                text_content += "\n"
+                stats_content += "\n"
 
         if i < len(report_data["stats"]) - 1:
-            text_content += f"\n{CONFIG['FEISHU_MESSAGE_SEPARATOR']}\n\n"
+            stats_content += f"\n{CONFIG['FEISHU_MESSAGE_SEPARATOR']}\n\n"
 
-    if not text_content:
+    if not stats_content:
         if mode == "incremental":
             mode_text = "增量模式下暂无新增匹配的热点词汇"
         elif mode == "current":
             mode_text = "当前榜单模式下暂无匹配的热点词汇"
         else:
             mode_text = "暂无匹配的热点词汇"
-        text_content = f"📭 {mode_text}\n\n"
+        stats_content = f"📭 {mode_text}\n\n"
 
     if report_data["new_titles"]:
-        if text_content and "暂无匹配" not in text_content:
-            text_content += f"\n{CONFIG['FEISHU_MESSAGE_SEPARATOR']}\n\n"
+        if stats_content and "暂无匹配" not in stats_content:
+            stats_content += f"\n{CONFIG['FEISHU_MESSAGE_SEPARATOR']}\n\n"
 
-        text_content += (
+        stats_content += (
             f"🆕 **本次新增热点新闻** (共 {report_data['total_new_count']} 条)\n\n"
         )
 
         for source_data in report_data["new_titles"]:
-            text_content += (
+            stats_content += (
                 f"**{source_data['source_name']}** ({len(source_data['titles'])} 条):\n"
             )
 
@@ -2467,17 +2496,22 @@ def render_feishu_content(
                 formatted_title = format_title_for_platform(
                     "feishu", title_data_copy, show_source=False
                 )
-                text_content += f"  {j}. {formatted_title}\n"
+                stats_content += f"  {j}. {formatted_title}\n"
 
-            text_content += "\n"
+            stats_content += "\n"
 
     if report_data["failed_ids"]:
-        if text_content and "暂无匹配" not in text_content:
-            text_content += f"\n{CONFIG['FEISHU_MESSAGE_SEPARATOR']}\n\n"
+        if stats_content and "暂无匹配" not in stats_content:
+            stats_content += f"\n{CONFIG['FEISHU_MESSAGE_SEPARATOR']}\n\n"
 
-        text_content += "⚠️ **数据获取失败的平台：**\n\n"
+        stats_content += "⚠️ **数据获取失败的平台：**\n\n"
         for i, id_value in enumerate(report_data["failed_ids"], 1):
-            text_content += f"  • {id_value}\n"
+            stats_content += f"  • {id_value}\n"
+
+    # 拼接：播报在前，统计在后
+    if text_content and stats_content:
+        text_content += f"\n\n{CONFIG['FEISHU_MESSAGE_SEPARATOR']}\n\n"
+    text_content += stats_content
 
     now = get_beijing_time()
     text_content += (
@@ -2486,35 +2520,6 @@ def render_feishu_content(
 
     if update_info:
         text_content += f"\nTrendRadar 发现新版本 {update_info['remote_version']}，当前 {update_info['current_version']}"
-    
-    # 添加口播稿文本（如果有）
-    if script_text:
-        text_content += f"\n\n{CONFIG['FEISHU_MESSAGE_SEPARATOR']}\n\n"
-        text_content += "📢 **AI财经热点新闻汇总播报**\n\n"
-        # 限制长度，避免消息过长
-        if len(script_text) > 2000:
-            text_content += script_text[:2000] + "\n\n...（内容较长，已截断）"
-            print(f"⚠️ 口播稿内容较长（{len(script_text)} 字），已截断至2000字")
-        else:
-            text_content += script_text
-        
-        # 添加音频链接（如果有音频文件且配置了base_url）
-        if audio_file and audio_file.exists():
-            base_url = CONFIG.get("BASE_URL", "")
-            if base_url:
-                from urllib.parse import quote
-                relative_path = str(audio_file).replace("\\", "/")
-                # 取 output/ 开头的相对路径
-                if "output/" in relative_path:
-                    relative_path = "output/" + relative_path.split("output/", 1)[1]
-                encoded_path = "/".join(quote(segment, safe="") for segment in relative_path.split("/"))
-                audio_url = f"{base_url.rstrip('/')}/{encoded_path}"
-                text_content += f"\n\n🎵 **音频文件**: [点击收听]({audio_url})"
-                print(f"✅ 音频链接已添加到飞书消息中")
-        
-        print(f"✅ 口播稿已添加到飞书消息内容中（{len(script_text)} 字）")
-    else:
-        print("⚠️ render_feishu_content: 未提供口播稿文本（script_text=None）")
 
     return text_content
 
