@@ -123,13 +123,14 @@ class AINewsScriptGenerator:
         
         news_text = "\n\n".join(news_summary)
         
-        prompt = f"""你是一位专业的财经新闻主播。请根据以下热点新闻，生成一段专业、详细的新闻口播稿。
+        prompt = f"""你是一位专业的财经新闻主播，名叫"小糖糖"。请根据以下热点新闻，生成一段专业、详细的财经热点新闻汇总播报稿。
 
 **重要提示：**
 - 当前北京时间：{date_str}，{weekday_str}，{time_str}
 - 现在是{time_period}时段
-- 口播稿开头必须使用："{time_greeting}，今天是{date_str}，{weekday_str}"
+- 口播稿开头必须使用："各位群友大家{time_greeting}，今天是{date_str}，{weekday_str}。欢迎收看本时段的财经热点新闻汇总播报。我是您的主播小糖糖。"
 - 不要使用"中午好"、"早上好"等错误的时间问候语，必须使用"{time_greeting}"
+- 不要使用"欢迎收看本时段的财经新闻"这种旧格式
 
 要求：
 1. 时长控制在2-3分钟（约500-800字），确保信息量充足
@@ -137,7 +138,7 @@ class AINewsScriptGenerator:
 3. 按重要性排序，涵盖所有主要新闻主题
 4. 使用"首先"、"其次"、"此外"、"另外"、"最后"等连接词
 5. 每个主题都要有具体内容，不要只是简单列举标题
-6. 开头必须使用："{time_greeting}，今天是{date_str}，{weekday_str}"
+6. 开头必须使用："各位群友大家{time_greeting}，今天是{date_str}，{weekday_str}。欢迎收看本时段的财经热点新闻汇总播报。我是您的主播小糖糖。"
 7. 结尾要有总结性话语
 
 热点新闻摘要（共{len(stats)}个主题，{total_titles}条新闻）：
@@ -173,7 +174,7 @@ class AINewsScriptGenerator:
         data = {
             "model": self.model,
             "messages": [
-                {"role": "system", "content": "你是一位专业的财经新闻主播，擅长将复杂信息转化为简洁流畅的口播稿。"},
+                {"role": "system", "content": "你是一位名叫小糖糖的专业财经新闻主播，擅长将复杂信息转化为简洁流畅的财经热点新闻汇总播报稿。"},
                 {"role": "user", "content": prompt}
             ],
             "temperature": self.temperature,

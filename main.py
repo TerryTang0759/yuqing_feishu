@@ -2197,7 +2197,7 @@ def render_html_content(
                     <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px; flex-wrap: wrap; gap: 12px;">
                         <h2 style="color: #4f46e5; margin: 0; font-size: 18px; font-weight: 600; display: flex; align-items: center; gap: 8px;">
                             <span style="font-size: 20px;">📢</span>
-                            <span>AI生成口播稿</span>
+                            <span>AI财经热点新闻汇总播报</span>
                         </h2>
                         <div style="display: flex; gap: 16px; font-size: 12px; color: #666;">
                             <span>📝 {word_count} 字</span>
@@ -2490,7 +2490,7 @@ def render_feishu_content(
     # 添加口播稿文本（如果有）
     if script_text:
         text_content += f"\n\n{CONFIG['FEISHU_MESSAGE_SEPARATOR']}\n\n"
-        text_content += "📢 **AI生成口播稿**\n\n"
+        text_content += "📢 **AI财经热点新闻汇总播报**\n\n"
         # 限制长度，避免消息过长
         if len(script_text) > 2000:
             text_content += script_text[:2000] + "\n\n...（内容较长，已截断）"

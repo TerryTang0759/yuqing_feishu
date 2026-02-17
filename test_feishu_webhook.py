@@ -6,6 +6,7 @@
 import requests
 import json
 from pathlib import Path
+from urllib.parse import quote
 
 # 飞书webhook URL（从环境变量读取，避免明文泄露）
 import os
@@ -71,14 +72,15 @@ def test_script_message():
         script_text = script_text[:2000] + "\n\n...（内容较长，已截断）"
     
     # 构建消息
-    content = f"📢 **AI生成口播稿**\n\n{script_text}"
+    content = f"📢 **AI财经热点新闻汇总播报**\n\n{script_text}"
     
     # 如果有base_url，添加音频链接
-    base_url = "https://joyce677.github.io/TrendRadar"
+    base_url = "https://terrytang0759.github.io/yuqing_feishu"
     audio_file = script_file.parent / "口播稿.mp3"
     if audio_file.exists() and base_url:
         relative_path = f"output/{today}/html/script/口播稿.mp3"
-        audio_url = f"{base_url}/{relative_path}"
+        encoded_path = "/".join(quote(segment, safe="") for segment in relative_path.split("/"))
+        audio_url = f"{base_url}/{encoded_path}"
         content += f"\n\n🎵 **音频文件**: [点击收听]({audio_url})"
     
     payload = {
@@ -130,7 +132,7 @@ def test_rich_text_message():
             "header": {
                 "title": {
                     "tag": "plain_text",
-                    "content": "📢 AI生成口播稿"
+                    "content": "📢 AI财经热点新闻汇总播报"
                 },
                 "template": "blue"
             },

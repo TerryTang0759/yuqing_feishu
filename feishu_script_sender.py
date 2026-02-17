@@ -8,6 +8,7 @@ import json
 import os
 from pathlib import Path
 from typing import Optional, Dict
+from urllib.parse import quote
 import requests
 
 
@@ -35,21 +36,17 @@ def send_script_to_feishu_webhook(
     """
     try:
         # 构建消息内容
-        content = f"📢 **AI生成口播稿**\n\n{script_text}"
+        content = f"📢 **AI财经热点新闻汇总播报**\n\n{script_text}"
         
         # 如果有音频文件且配置了base_url，添加音频链接
         if audio_file_path and base_url:
             audio_filename = Path(audio_file_path).name
             # 构建音频文件URL（假设文件在output目录下）
-            # 需要根据实际部署情况调整路径
             relative_path = str(Path(audio_file_path)).replace("\\", "/")
-            if relative_path.startswith("output/"):
-                audio_url = f"{base_url.rstrip('/')}/{relative_path}"
-                content += f"\n\n🎵 **音频文件**: [点击收听]({audio_url})"
-            else:
-                # 如果路径不是output/开头，尝试直接拼接
-                audio_url = f"{base_url.rstrip('/')}/{relative_path}"
-                content += f"\n\n🎵 **音频文件**: [点击收听]({audio_url})"
+            # 对路径中的中文字符进行URL编码，保留 /
+            encoded_path = "/".join(quote(segment, safe="") for segment in relative_path.split("/"))
+            audio_url = f"{base_url.rstrip('/')}/{encoded_path}"
+            content += f"\n\n🎵 **音频文件**: [点击收听]({audio_url})"
         
         payload = {
             "msg_type": "text",
@@ -148,7 +145,7 @@ def send_script_to_feishu_api(
         text_payload = {
             "receive_id": chat_id,
             "msg_type": "text",
-            "content": json.dumps({"text": f"📢 **AI生成口播稿**\n\n{script_text}"})
+            "content": json.dumps({"text": f"📢 **AI财经热点新闻汇总播报**\n\n{script_text}"})
         }
         
         text_response = requests.post(
