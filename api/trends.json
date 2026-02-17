@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-17T10:55:35.841139+08:00",
-  "total_titles_processed": 449,
+  "generated_at": "2026-02-17T11:02:10.873860+08:00",
+  "total_titles_processed": 451,
   "failed_sources": [],
   "trends": [
     {
@@ -15,8 +15,8 @@
             2
           ],
           "is_new": false,
-          "appearance_count": 6,
-          "time_info": "[09时17分 ~ 10时55分]"
+          "appearance_count": 8,
+          "time_info": "[09时17分 ~ 11时02分]"
         },
         {
           "title": "盘点春晚合作公司名单，覆盖智能出行、人工智能机器人、白酒等领域",
@@ -26,8 +26,8 @@
             2
           ],
           "is_new": false,
-          "appearance_count": 6,
-          "time_info": "[09时17分 ~ 10时55分]"
+          "appearance_count": 8,
+          "time_info": "[09时17分 ~ 11时02分]"
         },
         {
           "title": "马年春晚黑科技！四家机器人同台献技 AI大模型渗透内容制作",
@@ -37,8 +37,8 @@
             3
           ],
           "is_new": false,
-          "appearance_count": 6,
-          "time_info": "[09时17分 ~ 10时55分]"
+          "appearance_count": 8,
+          "time_info": "[09时17分 ~ 11时02分]"
         },
         {
           "title": "AI遇上最强春节档 Token通胀已成必然？",
@@ -48,8 +48,30 @@
             4
           ],
           "is_new": false,
-          "appearance_count": 6,
-          "time_info": "[09时17分 ~ 10时55分]"
+          "appearance_count": 8,
+          "time_info": "[09时17分 ~ 11时02分]"
+        },
+        {
+          "title": "AI电荒把燃气轮机“捧上C位” 龙头企业：需求极其旺盛 交付排到2030年",
+          "url": "https://www.cls.cn/detail/2290580",
+          "source": "财联社热门",
+          "ranks": [
+            8
+          ],
+          "is_new": false,
+          "appearance_count": 8,
+          "time_info": "[09时17分 ~ 11时02分]"
+        },
+        {
+          "title": "告别“码农”时代？马斯克预言“就在年底”，国产大模型春节竞速AI编程",
+          "url": "https://www.cls.cn/detail/2290650",
+          "source": "财联社热门",
+          "ranks": [
+            9
+          ],
+          "is_new": false,
+          "appearance_count": 8,
+          "time_info": "[09时17分 ~ 11时02分]"
         },
         {
           "title": "OpenClaw创始人加入OpenAI，目标“开发一款连我妈妈都能用的AI助手”",
@@ -63,28 +85,6 @@
           "time_info": "[09时17分 ~ 09时18分]"
         },
         {
-          "title": "AI电荒把燃气轮机“捧上C位” 龙头企业：需求极其旺盛 交付排到2030年",
-          "url": "https://www.cls.cn/detail/2290580",
-          "source": "财联社热门",
-          "ranks": [
-            8
-          ],
-          "is_new": false,
-          "appearance_count": 6,
-          "time_info": "[09时17分 ~ 10时55分]"
-        },
-        {
-          "title": "告别“码农”时代？马斯克预言“就在年底”，国产大模型春节竞速AI编程",
-          "url": "https://www.cls.cn/detail/2290650",
-          "source": "财联社热门",
-          "ranks": [
-            9
-          ],
-          "is_new": false,
-          "appearance_count": 6,
-          "time_info": "[09时17分 ~ 10时55分]"
-        },
-        {
           "title": "言短意长｜当人工智能和机器人扎推出现在春晚",
           "url": "https://m.thepaper.cn/newsDetail_forward_32622644",
           "source": "澎湃新闻",
@@ -92,8 +92,8 @@
             11
           ],
           "is_new": false,
-          "appearance_count": 4,
-          "time_info": "[10时36分 ~ 10时55分]"
+          "appearance_count": 6,
+          "time_info": "[10时36分 ~ 11时02分]"
         },
         {
           "title": "Meta内部测试显示其AI聊天机器人未能有效保护儿童",
@@ -105,8 +105,8 @@
             25
           ],
           "is_new": false,
-          "appearance_count": 3,
-          "time_info": "[09时18分 ~ 10时55分]"
+          "appearance_count": 4,
+          "time_info": "[09时18分 ~ 11时02分]"
         },
         {
           "title": "印度举办AI“影响力”峰会",
@@ -117,8 +117,8 @@
             17
           ],
           "is_new": false,
-          "appearance_count": 2,
-          "time_info": "[10时37分 ~ 10时55分]"
+          "appearance_count": 3,
+          "time_info": "[10时37分 ~ 11时02分]"
         },
         {
           "title": "法拉第未来联席CEO贾跃亭：法拉第未来将推出EAI Robotics改进计划，并建议对AIxC进行重大调整。",
@@ -129,8 +129,8 @@
             24
           ],
           "is_new": false,
-          "appearance_count": 2,
-          "time_info": "[10时37分 ~ 10时55分]"
+          "appearance_count": 3,
+          "time_info": "[10时37分 ~ 11时02分]"
         },
         {
           "title": "新春走基层·山乡新貌｜从清理冒牌软件到教用AI：家乡长辈们正努力填平“数字鸿沟”",
@@ -215,8 +215,8 @@
             13
           ],
           "is_new": false,
-          "appearance_count": 3,
-          "time_info": "[09时18分 ~ 10时55分]"
+          "appearance_count": 4,
+          "time_info": "[09时18分 ~ 11时02分]"
         },
         {
           "title": "央行报告：2025年资管产品规模快速增长，主要投向同业存款和存单",
@@ -227,8 +227,8 @@
             7
           ],
           "is_new": false,
-          "appearance_count": 2,
-          "time_info": "[10时37分 ~ 10时55分]"
+          "appearance_count": 3,
+          "time_info": "[10时37分 ~ 11时02分]"
         },
         {
           "title": "央行报告：2025年资管产品规模快速增长 主要投向同业存款和存单",
@@ -239,8 +239,8 @@
             27
           ],
           "is_new": false,
-          "appearance_count": 2,
-          "time_info": "[10时37分 ~ 10时55分]"
+          "appearance_count": 3,
+          "time_info": "[10时37分 ~ 11时02分]"
         },
         {
           "title": "澳洲联储会议纪要：CPI通胀基础广泛，若不加息，通胀压力预计将持续。",
@@ -311,8 +311,8 @@
             13
           ],
           "is_new": false,
-          "appearance_count": 6,
-          "time_info": "[09时17分 ~ 10时55分]"
+          "appearance_count": 8,
+          "time_info": "[09时17分 ~ 11时02分]"
         },
         {
           "title": "爱尔兰监管机构对马斯克旗下社交媒体平台X展开调查",
@@ -323,8 +323,19 @@
             9
           ],
           "is_new": false,
+          "appearance_count": 3,
+          "time_info": "[10时37分 ~ 11时02分]"
+        },
+        {
+          "title": "中国银行在多地落实设备更新贴息政策",
+          "url": "https://flash.jin10.com/detail/20260217102112201800",
+          "source": "金十数据",
+          "ranks": [
+            10
+          ],
+          "is_new": false,
           "appearance_count": 2,
-          "time_info": "[10时37分 ~ 10时55分]"
+          "time_info": "[10时55分 ~ 11时02分]"
         },
         {
           "title": "澳洲联储会议纪要：预测存在双向风险，未来的政策决策将取决于数据走势。",
@@ -336,17 +347,6 @@
           "is_new": false,
           "appearance_count": 1,
           "time_info": "09时18分"
-        },
-        {
-          "title": "中国银行在多地落实设备更新贴息政策",
-          "url": "https://flash.jin10.com/detail/20260217102112201800",
-          "source": "金十数据",
-          "ranks": [
-            10
-          ],
-          "is_new": true,
-          "appearance_count": 1,
-          "time_info": "10时55分"
         },
         {
           "title": "澳洲联储会议纪要：担忧若不采取政策应对，通胀将在过高水平维持过久。",
@@ -383,9 +383,9 @@
           "ranks": [
             4
           ],
-          "is_new": true,
-          "appearance_count": 1,
-          "time_info": "10时55分"
+          "is_new": false,
+          "appearance_count": 2,
+          "time_info": "[10时55分 ~ 11时02分]"
         },
         {
           "title": "香港金管局通过贴现窗口向银行投放47.3亿港元流动性，创2025年2月份以来新高。",
@@ -397,8 +397,8 @@
             20
           ],
           "is_new": false,
-          "appearance_count": 3,
-          "time_info": "[09时18分 ~ 10时55分]"
+          "appearance_count": 4,
+          "time_info": "[09时18分 ~ 11时02分]"
         },
         {
           "title": "金十图示：2026年02月17日（周二）中国工商银行账户贵金属行情",
@@ -409,8 +409,8 @@
             20
           ],
           "is_new": false,
-          "appearance_count": 2,
-          "time_info": "[10时37分 ~ 10时55分]"
+          "appearance_count": 3,
+          "time_info": "[10时37分 ~ 11时02分]"
         },
         {
           "title": "澳洲联储会议纪要：即便澳元走强，仍担忧金融状况不再具有限制性。",
@@ -461,8 +461,8 @@
             11
           ],
           "is_new": false,
-          "appearance_count": 3,
-          "time_info": "[09时18分 ~ 10时55分]"
+          "appearance_count": 4,
+          "time_info": "[09时18分 ~ 11时02分]"
         },
         {
           "title": "周一（2月16日），现货黄金最终跌0.99%，报4992.08美元/盎司，全天处于下跌状态，整体呈现出W形走势。 COMEX黄金期货跌0.66%，报5013.10美元/盎司。",
@@ -512,8 +512,8 @@
             4
           ],
           "is_new": false,
-          "appearance_count": 6,
-          "time_info": "[09时17分 ~ 10时55分]"
+          "appearance_count": 8,
+          "time_info": "[09时17分 ~ 11时02分]"
         },
         {
           "title": "美银Hartnett：“AI颠覆交易”加速扩散，一旦有科技巨头削减开支，将引发美股“轮动海啸”",
@@ -524,8 +524,8 @@
             9
           ],
           "is_new": false,
-          "appearance_count": 4,
-          "time_info": "[10时36分 ~ 10时55分]"
+          "appearance_count": 6,
+          "time_info": "[10时36分 ~ 11时02分]"
         },
         {
           "title": "美股财报电话会现状：“AI风险”讨论翻倍，公司必须“自证清白”，投资者“先卖再问”",
@@ -552,8 +552,8 @@
             1
           ],
           "is_new": false,
-          "appearance_count": 6,
-          "time_info": "[09时17分 ~ 10时55分]"
+          "appearance_count": 8,
+          "time_info": "[09时17分 ~ 11时02分]"
         },
         {
           "title": "今年已有143家企业递表港股IPO",
@@ -565,8 +565,8 @@
             14
           ],
           "is_new": false,
-          "appearance_count": 3,
-          "time_info": "[09时18分 ~ 10时55分]"
+          "appearance_count": 4,
+          "time_info": "[09时18分 ~ 11时02分]"
         }
       ]
     },
@@ -581,9 +581,9 @@
           "ranks": [
             3
           ],
-          "is_new": true,
-          "appearance_count": 1,
-          "time_info": "10时55分"
+          "is_new": false,
+          "appearance_count": 2,
+          "time_info": "[10时55分 ~ 11时02分]"
         },
         {
           "title": "澳大利亚竞争与消费者委员会：埃克森美孚石油(XOM.N)因在九家加油站就销售燃油所作的误导性陈述，将被处以1600万澳元罚款。",
@@ -594,8 +594,8 @@
             23
           ],
           "is_new": false,
-          "appearance_count": 2,
-          "time_info": "[10时37分 ~ 10时55分]"
+          "appearance_count": 3,
+          "time_info": "[10时37分 ~ 11时02分]"
         }
       ]
     },
@@ -612,8 +612,8 @@
             6
           ],
           "is_new": false,
-          "appearance_count": 6,
-          "time_info": "[09时17分 ~ 10时55分]"
+          "appearance_count": 8,
+          "time_info": "[09时17分 ~ 11时02分]"
         }
       ]
     },
@@ -646,8 +646,8 @@
             11
           ],
           "is_new": false,
-          "appearance_count": 6,
-          "time_info": "[09时17分 ~ 10时55分]"
+          "appearance_count": 8,
+          "time_info": "[09时17分 ~ 11时02分]"
         }
       ]
     },
@@ -664,8 +664,8 @@
             25
           ],
           "is_new": false,
-          "appearance_count": 2,
-          "time_info": "[10时37分 ~ 10时55分]"
+          "appearance_count": 3,
+          "time_info": "[10时37分 ~ 11时02分]"
         }
       ]
     },
@@ -683,8 +683,8 @@
             22
           ],
           "is_new": false,
-          "appearance_count": 3,
-          "time_info": "[09时18分 ~ 10时55分]"
+          "appearance_count": 4,
+          "time_info": "[09时18分 ~ 11时02分]"
         }
       ]
     }

@@ -2404,7 +2404,7 @@ def render_html_content(
 
 def render_feishu_content(
         report_data: Dict, update_info: Optional[Dict] = None, mode: str = "daily", 
-        script_text: Optional[str] = None
+        script_text: Optional[str] = None, audio_file: Optional[Path] = None
 ) -> str:
     """渲染飞书内容"""
     text_content = ""
@@ -2497,6 +2497,21 @@ def render_feishu_content(
             print(f"⚠️ 口播稿内容较长（{len(script_text)} 字），已截断至2000字")
         else:
             text_content += script_text
+        
+        # 添加音频链接（如果有音频文件且配置了base_url）
+        if audio_file and audio_file.exists():
+            base_url = CONFIG.get("BASE_URL", "")
+            if base_url:
+                from urllib.parse import quote
+                relative_path = str(audio_file).replace("\\", "/")
+                # 取 output/ 开头的相对路径
+                if "output/" in relative_path:
+                    relative_path = "output/" + relative_path.split("output/", 1)[1]
+                encoded_path = "/".join(quote(segment, safe="") for segment in relative_path.split("/"))
+                audio_url = f"{base_url.rstrip('/')}/{encoded_path}"
+                text_content += f"\n\n🎵 **音频文件**: [点击收听]({audio_url})"
+                print(f"✅ 音频链接已添加到飞书消息中")
+        
         print(f"✅ 口播稿已添加到飞书消息内容中（{len(script_text)} 字）")
     else:
         print("⚠️ render_feishu_content: 未提供口播稿文本（script_text=None）")
@@ -2998,33 +3013,8 @@ def send_to_webhooks(
             print("⚠️ 未找到口播稿，飞书消息将不包含口播稿内容")
         
         results["feishu"] = send_to_feishu(
-            feishu_url, report_data, report_type, update_info_to_send, proxy_url, mode, script_text
+            feishu_url, report_data, report_type, update_info_to_send, proxy_url, mode, script_text, audio_file
         )
-        
-        # 如果存在音频文件，尝试发送（使用飞书API或链接）
-        if audio_file and audio_file.exists():
-            try:
-                from feishu_script_sender import send_script_to_feishu
-                
-                feishu_config = {
-                    "feishu_webhook_url": feishu_url,
-                    "base_url": CONFIG.get("BASE_URL", ""),
-                    "proxy_url": proxy_url,
-                    # 如果配置了飞书API，可以添加：
-                    # "feishu_app_id": os.environ.get("FEISHU_APP_ID", ""),
-                    # "feishu_app_secret": os.environ.get("FEISHU_APP_SECRET", ""),
-                    # "feishu_chat_id": os.environ.get("FEISHU_CHAT_ID", ""),
-                }
-                
-                send_script_to_feishu(
-                    str(script_file) if script_file else "",
-                    str(audio_file),
-                    feishu_config
-                )
-            except ImportError:
-                print("⚠️ feishu_script_sender模块未找到，跳过音频文件发送")
-            except Exception as e:
-                print(f"⚠️ 发送飞书音频文件失败: {e}")
 
     # 发送到钉钉
     if dingtalk_url:
@@ -3069,11 +3059,12 @@ def send_to_feishu(
         proxy_url: Optional[str] = None,
         mode: str = "daily",
         script_text: Optional[str] = None,
+        audio_file: Optional[Path] = None,
 ) -> bool:
     """发送到飞书"""
     headers = {"Content-Type": "application/json"}
 
-    text_content = render_feishu_content(report_data, update_info, mode, script_text)
+    text_content = render_feishu_content(report_data, update_info, mode, script_text, audio_file)
 
     # 飞书 webhook 的 content 只能包含 text 字段
     payload = {
