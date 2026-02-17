@@ -2407,7 +2407,8 @@ def render_feishu_content(
         script_text: Optional[str] = None, audio_file: Optional[Path] = None
 ) -> str:
     """渲染飞书内容"""
-    text_content = ""
+    now = get_beijing_time()
+    text_content = f"🕐 更新时间：{now.strftime('%Y-%m-%d %H:%M:%S')}\n\n"
 
     # ==================== 第一部分：AI播报汇总（优先展示） ====================
     if script_text:
@@ -2513,13 +2514,8 @@ def render_feishu_content(
         text_content += f"\n\n{CONFIG['FEISHU_MESSAGE_SEPARATOR']}\n\n"
     text_content += stats_content
 
-    now = get_beijing_time()
-    text_content += (
-        f"\n\n🕐 更新时间：{now.strftime('%Y-%m-%d %H:%M:%S')}"
-    )
-
     if update_info:
-        text_content += f"\nTrendRadar 发现新版本 {update_info['remote_version']}，当前 {update_info['current_version']}"
+        text_content += f"\n\nTrendRadar 发现新版本 {update_info['remote_version']}，当前 {update_info['current_version']}"
 
     return text_content
 
