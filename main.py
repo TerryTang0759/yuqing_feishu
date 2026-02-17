@@ -980,8 +980,8 @@ def format_rank_display(ranks: List[int], rank_threshold: int, format_type: str)
         highlight_start = "<font color='red'><strong>"
         highlight_end = "</strong></font>"
     elif format_type == "feishu":
-        highlight_start = "<font color='red'>**"
-        highlight_end = "**</font>"
+        highlight_start = "**"
+        highlight_end = "**"
     elif format_type == "dingtalk":
         highlight_start = "**"
         highlight_end = "**"
@@ -1436,16 +1436,16 @@ def format_title_for_platform(
         title_prefix = "🆕 " if title_data.get("is_new") else ""
 
         if show_source:
-            result = f"<font color='grey'>[{title_data['source_name']}]</font> {title_prefix}{formatted_title}"
+            result = f"[{title_data['source_name']}] {title_prefix}{formatted_title}"
         else:
             result = f"{title_prefix}{formatted_title}"
 
         if rank_display:
             result += f" {rank_display}"
         if title_data["time_display"]:
-            result += f" <font color='grey'>- {title_data['time_display']}</font>"
+            result += f" - {title_data['time_display']}"
         if title_data["count"] > 1:
-            result += f" <font color='green'>({title_data['count']}次)</font>"
+            result += f" ({title_data['count']}次)"
 
         return result
 
@@ -2418,12 +2418,12 @@ def render_feishu_content(
         word = stat["word"]
         count = stat["count"]
 
-        sequence_display = f"<font color='grey'>[{i + 1}/{total_count}]</font>"
+        sequence_display = f"[{i + 1}/{total_count}]"
 
         if count >= 10:
-            text_content += f"🔥 {sequence_display} **{word}** : <font color='red'>{count}</font> 条\n\n"
+            text_content += f"🔥 {sequence_display} **{word}** : {count} 条\n\n"
         elif count >= 5:
-            text_content += f"📈 {sequence_display} **{word}** : <font color='orange'>{count}</font> 条\n\n"
+            text_content += f"📈 {sequence_display} **{word}** : {count} 条\n\n"
         else:
             text_content += f"📌 {sequence_display} **{word}** : {count} 条\n\n"
 
@@ -2477,15 +2477,15 @@ def render_feishu_content(
 
         text_content += "⚠️ **数据获取失败的平台：**\n\n"
         for i, id_value in enumerate(report_data["failed_ids"], 1):
-            text_content += f"  • <font color='red'>{id_value}</font>\n"
+            text_content += f"  • {id_value}\n"
 
     now = get_beijing_time()
     text_content += (
-        f"\n\n<font color='grey'>更新时间：{now.strftime('%Y-%m-%d %H:%M:%S')}</font>"
+        f"\n\n🕐 更新时间：{now.strftime('%Y-%m-%d %H:%M:%S')}"
     )
 
     if update_info:
-        text_content += f"\n<font color='grey'>TrendRadar 发现新版本 {update_info['remote_version']}，当前 {update_info['current_version']}</font>"
+        text_content += f"\nTrendRadar 发现新版本 {update_info['remote_version']}，当前 {update_info['current_version']}"
     
     # 添加口播稿文本（如果有）
     if script_text:
