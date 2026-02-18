@@ -1,601 +1,310 @@
 {
-  "generated_at": "2026-02-17T11:02:10.873860+08:00",
-  "total_titles_processed": 451,
+  "generated_at": "2026-02-18T09:20:26.608616+08:00",
+  "total_titles_processed": 315,
   "failed_sources": [],
   "trends": [
     {
       "keyword_group": "人工智能 AI ChatGPT GPT 大模型",
-      "match_count": 17,
+      "match_count": 11,
       "titles": [
-        {
-          "title": "AI圈内人士：巨大变革正在发生，人们还懵懂不知",
-          "url": "https://wallstreetcn.com/articles/3765774",
-          "source": "华尔街见闻",
-          "ranks": [
-            2
-          ],
-          "is_new": false,
-          "appearance_count": 8,
-          "time_info": "[09时17分 ~ 11时02分]"
-        },
         {
           "title": "盘点春晚合作公司名单，覆盖智能出行、人工智能机器人、白酒等领域",
           "url": "https://www.cls.cn/detail/2290769",
           "source": "财联社热门",
           "ranks": [
-            2
+            1
           ],
           "is_new": false,
-          "appearance_count": 8,
-          "time_info": "[09时17分 ~ 11时02分]"
+          "appearance_count": 2,
+          "time_info": "[09时19分 ~ 09时20分]"
         },
         {
           "title": "马年春晚黑科技！四家机器人同台献技 AI大模型渗透内容制作",
           "url": "https://www.cls.cn/detail/2290959",
           "source": "财联社热门",
           "ranks": [
-            3
-          ],
-          "is_new": false,
-          "appearance_count": 8,
-          "time_info": "[09时17分 ~ 11时02分]"
-        },
-        {
-          "title": "AI遇上最强春节档 Token通胀已成必然？",
-          "url": "https://www.cls.cn/detail/2290600",
-          "source": "财联社热门",
-          "ranks": [
-            4
-          ],
-          "is_new": false,
-          "appearance_count": 8,
-          "time_info": "[09时17分 ~ 11时02分]"
-        },
-        {
-          "title": "AI电荒把燃气轮机“捧上C位” 龙头企业：需求极其旺盛 交付排到2030年",
-          "url": "https://www.cls.cn/detail/2290580",
-          "source": "财联社热门",
-          "ranks": [
-            8
-          ],
-          "is_new": false,
-          "appearance_count": 8,
-          "time_info": "[09时17分 ~ 11时02分]"
-        },
-        {
-          "title": "告别“码农”时代？马斯克预言“就在年底”，国产大模型春节竞速AI编程",
-          "url": "https://www.cls.cn/detail/2290650",
-          "source": "财联社热门",
-          "ranks": [
-            9
-          ],
-          "is_new": false,
-          "appearance_count": 8,
-          "time_info": "[09时17分 ~ 11时02分]"
-        },
-        {
-          "title": "OpenClaw创始人加入OpenAI，目标“开发一款连我妈妈都能用的AI助手”",
-          "url": "https://wallstreetcn.com/articles/3765772",
-          "source": "华尔街见闻",
-          "ranks": [
-            4
+            2
           ],
           "is_new": false,
           "appearance_count": 2,
-          "time_info": "[09时17分 ~ 09时18分]"
+          "time_info": "[09时19分 ~ 09时20分]"
         },
         {
-          "title": "言短意长｜当人工智能和机器人扎推出现在春晚",
-          "url": "https://m.thepaper.cn/newsDetail_forward_32622644",
-          "source": "澎湃新闻",
+          "title": "疑似ai?鹰角整活六指琴魔",
+          "url": "https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28350758&amp;topic_name=%E7%96%91%E4%BC%BCai%3F%E9%B9%B0%E8%A7%92%E6%95%B4%E6%B4%BB%E5%85%AD%E6%8C%87%E7%90%B4%E9%AD%94",
+          "source": "贴吧",
+          "ranks": [
+            3
+          ],
+          "is_new": false,
+          "appearance_count": 2,
+          "time_info": "[09时19分 ~ 09时20分]"
+        },
+        {
+          "title": "据The Information：Anthropic预计到2029年将向亚马逊、谷歌和微软支付至少800亿美元，以在云服务器上运行Claude AI。",
+          "url": "https://flash.jin10.com/detail/20260218085113078800",
+          "source": "金十数据",
+          "ranks": [
+            2
+          ],
+          "is_new": true,
+          "appearance_count": 1,
+          "time_info": "09时20分"
+        },
+        {
+          "title": "王菲化妆师改口问就是AI",
+          "url": "https://s.weibo.com/weibo?q=%23%E7%8E%8B%E8%8F%B2%E5%8C%96%E5%A6%86%E5%B8%88%E6%94%B9%E5%8F%A3%E9%97%AE%E5%B0%B1%E6%98%AFAI%23&t=31&band_rank=11&Refer=top",
+          "source": "微博",
           "ranks": [
             11
           ],
           "is_new": false,
-          "appearance_count": 6,
-          "time_info": "[10时36分 ~ 11时02分]"
+          "appearance_count": 2,
+          "time_info": "[09时19分 ~ 09时20分]"
         },
         {
-          "title": "Meta内部测试显示其AI聊天机器人未能有效保护儿童",
-          "url": "https://wallstreetcn.com/livenews/3055850",
-          "source": "华尔街见闻-快讯",
+          "title": "AI驱动存储持续迭代！三星PIM技术量产在即 或绕过CPU、GPU直接计算",
+          "url": "https://www.cls.cn/detail/2291068",
+          "source": "财联社热门",
           "ranks": [
-            15,
-            23,
-            25
-          ],
-          "is_new": false,
-          "appearance_count": 4,
-          "time_info": "[09时18分 ~ 11时02分]"
-        },
-        {
-          "title": "印度举办AI“影响力”峰会",
-          "url": "https://flash.jin10.com/detail/20260217100032418800",
-          "source": "金十数据",
-          "ranks": [
-            6,
-            17
-          ],
-          "is_new": false,
-          "appearance_count": 3,
-          "time_info": "[10时37分 ~ 11时02分]"
-        },
-        {
-          "title": "法拉第未来联席CEO贾跃亭：法拉第未来将推出EAI Robotics改进计划，并建议对AIxC进行重大调整。",
-          "url": "https://flash.jin10.com/detail/20260217095049061800",
-          "source": "金十数据",
-          "ranks": [
-            13,
-            24
-          ],
-          "is_new": false,
-          "appearance_count": 3,
-          "time_info": "[10时37分 ~ 11时02分]"
-        },
-        {
-          "title": "新春走基层·山乡新貌｜从清理冒牌软件到教用AI：家乡长辈们正努力填平“数字鸿沟”",
-          "url": "https://m.thepaper.cn/newsDetail_forward_32611897",
-          "source": "澎湃新闻",
-          "ranks": [
-            19
+            12
           ],
           "is_new": false,
           "appearance_count": 2,
-          "time_info": "[09时17分 ~ 09时18分]"
+          "time_info": "[09时19分 ~ 09时20分]"
         },
         {
-          "title": "这波三角洲AI春晚真该留到今晚看",
-          "url": "https://search.bilibili.com/all?keyword=%E8%BF%99%E6%B3%A2%E4%B8%89%E8%A7%92%E6%B4%B2AI%E6%98%A5%E6%99%9A%E7%9C%9F%E8%AF%A5%E7%95%99%E5%88%B0%E4%BB%8A%E6%99%9A%E7%9C%8B",
-          "source": "bilibili 热搜",
-          "ranks": [
-            19
-          ],
-          "is_new": false,
-          "appearance_count": 2,
-          "time_info": "[10时36分 ~ 10时37分]"
-        },
-        {
-          "title": "OpenAI：系统（恢复）全面运作。",
-          "url": "https://wallstreetcn.com/livenews/3055842",
-          "source": "华尔街见闻-快讯",
-          "ranks": [
-            22,
-            30
-          ],
-          "is_new": false,
-          "appearance_count": 2,
-          "time_info": "[09时18分 ~ 10时37分]"
-        },
-        {
-          "title": "华尔街女股神：卖出AI的人都会后悔",
-          "url": "https://www.toutiao.com/trending/7607622242041613865/",
+          "title": "印度AI峰会差评如潮",
+          "url": "https://www.toutiao.com/trending/7607984521316797978/",
           "source": "今日头条",
           "ranks": [
-            26
-          ],
-          "is_new": false,
-          "appearance_count": 2,
-          "time_info": "[10时36分 ~ 10时37分]"
-        },
-        {
-          "title": "以黑石为首的投资者将向印度AI公司Neysa注资最高达6亿美元",
-          "url": "https://wallstreetcn.com/livenews/3055839",
-          "source": "华尔街见闻-快讯",
-          "ranks": [
             24
           ],
           "is_new": false,
-          "appearance_count": 1,
-          "time_info": "09时18分"
+          "appearance_count": 2,
+          "time_info": "[09时19分 ~ 09时20分]"
         },
         {
-          "title": "OpenAI目前正经历某些问题，购物搜索功能宕机。",
-          "url": "https://wallstreetcn.com/livenews/3055834",
-          "source": "华尔街见闻-快讯",
+          "title": "英伟达：美光科技旗下忆恒创源（Persistent）借助英伟达BioNeMo和NeMo Agent工具包加速由人工智能驱动的分子发现进程 。",
+          "url": "https://flash.jin10.com/detail/20260218083422399800",
+          "source": "金十数据",
           "ranks": [
-            28
+            7
           ],
-          "is_new": false,
+          "is_new": true,
           "appearance_count": 1,
-          "time_info": "09时18分"
+          "time_info": "09时20分"
+        },
+        {
+          "title": "英伟达：与包括Peak XV、Elevation Capital、Accel India等在内的风险投资公司合作，以识别并资助人工智能初创企业。",
+          "url": "https://flash.jin10.com/detail/20260218083229233800",
+          "source": "金十数据",
+          "ranks": [
+            9
+          ],
+          "is_new": true,
+          "appearance_count": 1,
+          "time_info": "09时20分"
+        },
+        {
+          "title": "英伟达：构建主权人工智能系统的开发者今天即可访问英伟达NemoTron和Nemo。",
+          "url": "https://flash.jin10.com/detail/20260218083054230800",
+          "source": "金十数据",
+          "ranks": [
+            10
+          ],
+          "is_new": true,
+          "appearance_count": 1,
+          "time_info": "09时20分"
+        },
+        {
+          "title": "英伟达：英孚斯利用英伟达AI企业版构建企业级编码小型语言模型。",
+          "url": "https://flash.jin10.com/detail/20260218083047394800",
+          "source": "金十数据",
+          "ranks": [
+            11
+          ],
+          "is_new": true,
+          "appearance_count": 1,
+          "time_info": "09时20分"
         }
       ]
     },
     {
       "keyword_group": "央行 货币政策 降息 降准 加息",
-      "match_count": 8,
-      "titles": [
-        {
-          "title": "澳洲联储会议纪要：自上次会议以来就业-通胀目标风险发生重大变化。 政策决策的重点是数据和前景评估。 自2025年中期以来金融状况“大幅宽松”。 未来的政策决策需要应对不断变化的风险。 在保护就业的同时让CPI降温的策略是适当的。 加息反映出物价压力持续存在。 工资和较高的单位劳动力成本表明就业市场“有点紧张”。",
-          "url": "https://wallstreetcn.com/livenews/3055864",
-          "source": "华尔街见闻-快讯",
-          "ranks": [
-            3,
-            11,
-            13
-          ],
-          "is_new": false,
-          "appearance_count": 4,
-          "time_info": "[09时18分 ~ 11时02分]"
-        },
-        {
-          "title": "央行报告：2025年资管产品规模快速增长，主要投向同业存款和存单",
-          "url": "https://wallstreetcn.com/livenews/3055871",
-          "source": "华尔街见闻-快讯",
-          "ranks": [
-            5,
-            7
-          ],
-          "is_new": false,
-          "appearance_count": 3,
-          "time_info": "[10时37分 ~ 11时02分]"
-        },
-        {
-          "title": "央行报告：2025年资管产品规模快速增长 主要投向同业存款和存单",
-          "url": "https://flash.jin10.com/detail/20260217094345603800",
-          "source": "金十数据",
-          "ranks": [
-            16,
-            27
-          ],
-          "is_new": false,
-          "appearance_count": 3,
-          "time_info": "[10时37分 ~ 11时02分]"
-        },
-        {
-          "title": "澳洲联储会议纪要：CPI通胀基础广泛，若不加息，通胀压力预计将持续。",
-          "url": "https://flash.jin10.com/detail/20260217083150776800",
-          "source": "金十数据",
-          "ranks": [
-            14
-          ],
-          "is_new": false,
-          "appearance_count": 1,
-          "time_info": "09时18分"
-        },
-        {
-          "title": "澳洲联储会议纪要：考虑过维持利率不变，但认为加息的理由更充分。",
-          "url": "https://flash.jin10.com/detail/20260217083115458800",
-          "source": "金十数据",
-          "ranks": [
-            17
-          ],
-          "is_new": false,
-          "appearance_count": 1,
-          "time_info": "09时18分"
-        },
-        {
-          "title": "欢迎进入链接网页右侧下载本周财经数据与事件精美周历壁纸：今日韩国、越南、中国休市，澳洲联储将公布2月货币政策会议纪要",
-          "url": "https://flash.jin10.com/detail/20260217082506526800",
-          "source": "金十数据",
-          "ranks": [
-            23
-          ],
-          "is_new": false,
-          "appearance_count": 1,
-          "time_info": "09时18分"
-        },
-        {
-          "title": "澳洲联储将于十分钟后公布2月货币政策会议纪要。",
-          "url": "https://flash.jin10.com/detail/20260217082000002800",
-          "source": "金十数据",
-          "ranks": [
-            25
-          ],
-          "is_new": false,
-          "appearance_count": 1,
-          "time_info": "09时18分"
-        },
-        {
-          "title": "前日本央行审议委员：日本央行可能在4月加息",
-          "url": "https://flash.jin10.com/detail/20260217081144110800",
-          "source": "金十数据",
-          "ranks": [
-            30
-          ],
-          "is_new": false,
-          "appearance_count": 1,
-          "time_info": "09时18分"
-        }
-      ]
-    },
-    {
-      "keyword_group": "监管 政策",
       "match_count": 6,
       "titles": [
         {
-          "title": "外交部：对加拿大、英国持普通护照人员实施免签政策",
-          "url": "https://www.cls.cn/detail/2290624",
-          "source": "财联社热门",
-          "ranks": [
-            13
-          ],
-          "is_new": false,
-          "appearance_count": 8,
-          "time_info": "[09时17分 ~ 11时02分]"
-        },
-        {
-          "title": "爱尔兰监管机构对马斯克旗下社交媒体平台X展开调查",
-          "url": "https://wallstreetcn.com/livenews/3055869",
+          "title": "新西兰联储：随着通胀率降至目标水平，货币政策将“正常化”。 本季度通胀率可能回归1-3%的目标区间。",
+          "url": "https://wallstreetcn.com/livenews/3056189",
           "source": "华尔街见闻-快讯",
           "ranks": [
-            7,
+            1
+          ],
+          "is_new": true,
+          "appearance_count": 1,
+          "time_info": "09时20分"
+        },
+        {
+          "title": "新西兰联储将于十分钟后公布利率决议和货币政策声明。",
+          "url": "https://flash.jin10.com/detail/20260218085000000800",
+          "source": "金十数据",
+          "ranks": [
+            3
+          ],
+          "is_new": true,
+          "appearance_count": 1,
+          "time_info": "09时20分"
+        },
+        {
+          "title": "国际货币基金组织驻日本代表团团长Rahul Anand：日本央行继续遵循数据依赖方法很重要。 日本央行明年应继续将利率调至中性。 日本央行的中性利率水平存在很大的不确定性。 日本央行独立有助于稳定通胀预期。 暂停征收消费税将削弱税基。 日本必须保障收入以保留财政空间。 美国关税对日本的影响远低于预期。",
+          "url": "https://wallstreetcn.com/livenews/3056179",
+          "source": "华尔街见闻-快讯",
+          "ranks": [
             9
           ],
-          "is_new": false,
-          "appearance_count": 3,
-          "time_info": "[10时37分 ~ 11时02分]"
-        },
-        {
-          "title": "中国银行在多地落实设备更新贴息政策",
-          "url": "https://flash.jin10.com/detail/20260217102112201800",
-          "source": "金十数据",
-          "ranks": [
-            10
-          ],
-          "is_new": false,
-          "appearance_count": 2,
-          "time_info": "[10时55分 ~ 11时02分]"
-        },
-        {
-          "title": "澳洲联储会议纪要：预测存在双向风险，未来的政策决策将取决于数据走势。",
-          "url": "https://flash.jin10.com/detail/20260217083306325800",
-          "source": "金十数据",
-          "ranks": [
-            10
-          ],
-          "is_new": false,
+          "is_new": true,
           "appearance_count": 1,
-          "time_info": "09时18分"
+          "time_info": "09时20分"
         },
         {
-          "title": "澳洲联储会议纪要：担忧若不采取政策应对，通胀将在过高水平维持过久。",
-          "url": "https://flash.jin10.com/detail/20260217083125850800",
+          "title": "英国改革党承诺执政后全面改革英国央行及预算责任办公室",
+          "url": "https://flash.jin10.com/detail/20260218082701035800",
           "source": "金十数据",
           "ranks": [
-            16
+            15
           ],
-          "is_new": false,
+          "is_new": true,
           "appearance_count": 1,
-          "time_info": "09时18分"
+          "time_info": "09时20分"
         },
         {
-          "title": "爱尔兰监管机构对马斯克旗下社交媒体平台X展开调查",
-          "url": "https://flash.jin10.com/detail/20260217091405072800",
+          "title": "国际货币基金组织日本代表团团长：我们在预测中假设今年日本央行将加息两次，并在2027年再加息一次。",
+          "url": "https://flash.jin10.com/detail/20260218075638479800",
           "source": "金十数据",
           "ranks": [
-            25
-          ],
-          "is_new": false,
-          "appearance_count": 1,
-          "time_info": "10时37分"
-        }
-      ]
-    },
-    {
-      "keyword_group": "金融 银行",
-      "match_count": 6,
-      "titles": [
-        {
-          "title": "各大银行/品牌金条价格排行一览",
-          "url": "https://flash.jin10.com/detail/20260217103709089800",
-          "source": "金十数据",
-          "ranks": [
-            4
-          ],
-          "is_new": false,
-          "appearance_count": 2,
-          "time_info": "[10时55分 ~ 11时02分]"
-        },
-        {
-          "title": "香港金管局通过贴现窗口向银行投放47.3亿港元流动性，创2025年2月份以来新高。",
-          "url": "https://wallstreetcn.com/livenews/3055856",
-          "source": "华尔街见闻-快讯",
-          "ranks": [
-            10,
-            18,
             20
           ],
-          "is_new": false,
-          "appearance_count": 4,
-          "time_info": "[09时18分 ~ 11时02分]"
+          "is_new": true,
+          "appearance_count": 1,
+          "time_info": "09时20分"
         },
         {
-          "title": "金十图示：2026年02月17日（周二）中国工商银行账户贵金属行情",
-          "url": "https://flash.jin10.com/detail/20260217095306288800",
+          "title": "国际货币基金组织日本代表团团长：外国投资者参与度的提高支撑了日本国债市场的流动性和交易深度，尤其是在日本央行缩减其在市场中的足迹之际。",
+          "url": "https://flash.jin10.com/detail/20260218075143119800",
           "source": "金十数据",
           "ranks": [
-            9,
-            20
+            27
           ],
-          "is_new": false,
-          "appearance_count": 3,
-          "time_info": "[10时37分 ~ 11时02分]"
-        },
-        {
-          "title": "澳洲联储会议纪要：即便澳元走强，仍担忧金融状况不再具有限制性。",
-          "url": "https://flash.jin10.com/detail/20260217083417025800",
-          "source": "金十数据",
-          "ranks": [
-            6
-          ],
-          "is_new": false,
+          "is_new": true,
           "appearance_count": 1,
-          "time_info": "09时18分"
-        },
-        {
-          "title": "澳洲联储会议纪要：金融状况已有所放松，银行放贷顺畅，信贷强劲增长。",
-          "url": "https://flash.jin10.com/detail/20260217083400353800",
-          "source": "金十数据",
-          "ranks": [
-            8
-          ],
-          "is_new": false,
-          "appearance_count": 1,
-          "time_info": "09时18分"
-        },
-        {
-          "title": "澳洲联储会议纪要：数据表现广泛强于预期，金融状况已大幅放松。",
-          "url": "https://flash.jin10.com/detail/20260217083043545800",
-          "source": "金十数据",
-          "ranks": [
-            19
-          ],
-          "is_new": false,
-          "appearance_count": 1,
-          "time_info": "09时18分"
-        }
-      ]
-    },
-    {
-      "keyword_group": "黄金 金价",
-      "match_count": 4,
-      "titles": [
-        {
-          "title": "现货黄金失守4970美元/盎司，日内跌0.42％。",
-          "url": "https://wallstreetcn.com/livenews/3055866",
-          "source": "华尔街见闻-快讯",
-          "ranks": [
-            1,
-            9,
-            11
-          ],
-          "is_new": false,
-          "appearance_count": 4,
-          "time_info": "[09时18分 ~ 11时02分]"
-        },
-        {
-          "title": "周一（2月16日），现货黄金最终跌0.99%，报4992.08美元/盎司，全天处于下跌状态，整体呈现出W形走势。 COMEX黄金期货跌0.66%，报5013.10美元/盎司。",
-          "url": "https://wallstreetcn.com/livenews/3055838",
-          "source": "华尔街见闻-快讯",
-          "ranks": [
-            25
-          ],
-          "is_new": false,
-          "appearance_count": 1,
-          "time_info": "09时18分"
-        },
-        {
-          "title": "现货金、银延续跌势，现货黄金回落至4930美元/盎司下方，日内跌1.26%；现货白银跌破73美元/盎司，日内跌4.36%。",
-          "url": "https://flash.jin10.com/detail/20260217090420566800",
-          "source": "金十数据",
-          "ranks": [
-            28
-          ],
-          "is_new": false,
-          "appearance_count": 1,
-          "time_info": "10时37分"
-        },
-        {
-          "title": "现货黄金日内跌超1.00%，现报4938.83美元/盎司。",
-          "url": "https://flash.jin10.com/detail/20260217085920687800",
-          "source": "金十数据",
-          "ranks": [
-            30
-          ],
-          "is_new": false,
-          "appearance_count": 1,
-          "time_info": "10时37分"
+          "time_info": "09时20分"
         }
       ]
     },
     {
       "keyword_group": "美股 纳斯达克 道琼斯 标普500",
-      "match_count": 3,
+      "match_count": 5,
       "titles": [
         {
-          "title": "美股休市，科技股拖累欧股反弹，黄金失去“中国动力”失守5000美元，人民币涨破6.89",
-          "url": "https://wallstreetcn.com/articles/3765796",
+          "title": "AI担忧仍存，美股走V微涨，软件股再遭抛售，金银油下挫，期银跌近6%",
+          "url": "https://wallstreetcn.com/articles/3765810",
           "source": "华尔街见闻",
           "ranks": [
-            8,
-            4
-          ],
-          "is_new": false,
-          "appearance_count": 8,
-          "time_info": "[09时17分 ~ 11时02分]"
-        },
-        {
-          "title": "美银Hartnett：“AI颠覆交易”加速扩散，一旦有科技巨头削减开支，将引发美股“轮动海啸”",
-          "url": "https://wallstreetcn.com/articles/3765781",
-          "source": "华尔街见闻",
-          "ranks": [
-            10,
-            9
-          ],
-          "is_new": false,
-          "appearance_count": 6,
-          "time_info": "[10时36分 ~ 11时02分]"
-        },
-        {
-          "title": "美股财报电话会现状：“AI风险”讨论翻倍，公司必须“自证清白”，投资者“先卖再问”",
-          "url": "https://wallstreetcn.com/articles/3765769",
-          "source": "华尔街见闻",
-          "ranks": [
-            10
+            2
           ],
           "is_new": false,
           "appearance_count": 2,
-          "time_info": "[09时17分 ~ 09时18分]"
+          "time_info": "[09时19分 ~ 09时20分]"
+        },
+        {
+          "title": "“AI恐慌交易”持续发酵 美股三大期指小幅走低 | 今夜看点",
+          "url": "https://www.cls.cn/detail/2291237",
+          "source": "财联社热门",
+          "ranks": [
+            6
+          ],
+          "is_new": false,
+          "appearance_count": 2,
+          "time_info": "[09时19分 ~ 09时20分]"
+        },
+        {
+          "title": "美股三大指数均小幅收涨",
+          "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E8%82%A1%E4%B8%89%E5%A4%A7%E6%8C%87%E6%95%B0%E5%9D%87%E5%B0%8F%E5%B9%85%E6%94%B6%E6%B6%A8",
+          "source": "百度热搜",
+          "ranks": [
+            15
+          ],
+          "is_new": false,
+          "appearance_count": 2,
+          "time_info": "[09时19分 ~ 09时20分]"
+        },
+        {
+          "title": "电子设计自动化（EDA）软件公司铿腾电子（CDNS）美股盘后涨4.65%，报296.63美元，业绩报告发布后一度涨超7%至303.32美元，该公司所给业绩指引并没有分析师担忧的那么严重。",
+          "url": "https://wallstreetcn.com/livenews/3056169",
+          "source": "华尔街见闻-快讯",
+          "ranks": [
+            19
+          ],
+          "is_new": true,
+          "appearance_count": 1,
+          "time_info": "09时20分"
+        },
+        {
+          "title": "周二（2月17日）纽约尾盘，标普500股指期货最终涨0.16%，道指期货涨0.10%，纳斯达克100股指期货跌0.13%。 罗素2000股指期货跌0.07%。",
+          "url": "https://wallstreetcn.com/livenews/3056158",
+          "source": "华尔街见闻-快讯",
+          "ranks": [
+            28
+          ],
+          "is_new": true,
+          "appearance_count": 1,
+          "time_info": "09时20分"
+        }
+      ]
+    },
+    {
+      "keyword_group": "华为 苹果 特斯拉 微软 谷歌",
+      "match_count": 2,
+      "titles": [
+        {
+          "title": "苹果春季发布会落地上海",
+          "url": "https://www.douyin.com/hot/2403646",
+          "source": "抖音",
+          "ranks": [
+            18
+          ],
+          "is_new": false,
+          "appearance_count": 2,
+          "time_info": "[09时19分 ~ 09时20分]"
+        },
+        {
+          "title": "13F报告显示，伯克希尔哈撒韦四季度建仓纽约时报。 增持Chubb、雪佛龙、达美乐披萨、Lamar。 减持亚马逊、美国银行、DaVita、Pool Corp.、Aon Plc.。 重仓苹果、美国运通、美国银行、可口可乐、雪佛龙。",
+          "url": "https://wallstreetcn.com/livenews/3056159",
+          "source": "华尔街见闻-快讯",
+          "ranks": [
+            27
+          ],
+          "is_new": true,
+          "appearance_count": 1,
+          "time_info": "09时20分"
         }
       ]
     },
     {
       "keyword_group": "港股 恒生指数",
-      "match_count": 2,
+      "match_count": 1,
       "titles": [
         {
-          "title": "AI热潮助力港股蛇年收官战告捷，MiniMax暴涨25%、智谱涨4.74%齐创新高，有色板块拉升",
-          "url": "https://wallstreetcn.com/articles/3765773",
-          "source": "华尔街见闻",
+          "title": "国内大模型“新品潮”引爆预期 港股AI概念股再度爆发",
+          "url": "https://www.cls.cn/detail/2290780",
+          "source": "财联社热门",
           "ranks": [
-            1
-          ],
-          "is_new": false,
-          "appearance_count": 8,
-          "time_info": "[09时17分 ~ 11时02分]"
-        },
-        {
-          "title": "今年已有143家企业递表港股IPO",
-          "url": "https://wallstreetcn.com/livenews/3055863",
-          "source": "华尔街见闻-快讯",
-          "ranks": [
-            4,
-            12,
-            14
-          ],
-          "is_new": false,
-          "appearance_count": 4,
-          "time_info": "[09时18分 ~ 11时02分]"
-        }
-      ]
-    },
-    {
-      "keyword_group": "原油 石油",
-      "match_count": 2,
-      "titles": [
-        {
-          "title": "市场消息：埃克森美孚石油(XOM.N)与澳大利亚竞争与消费者委员会就美孚“Synergy”品牌在昆士兰九家加油站的使用问题达成和解。",
-          "url": "https://flash.jin10.com/detail/20260217103828340800",
-          "source": "金十数据",
-          "ranks": [
-            3
+            13
           ],
           "is_new": false,
           "appearance_count": 2,
-          "time_info": "[10时55分 ~ 11时02分]"
-        },
-        {
-          "title": "澳大利亚竞争与消费者委员会：埃克森美孚石油(XOM.N)因在九家加油站就销售燃油所作的误导性陈述，将被处以1600万澳元罚款。",
-          "url": "https://flash.jin10.com/detail/20260217095144287800",
-          "source": "金十数据",
-          "ranks": [
-            12,
-            23
-          ],
-          "is_new": false,
-          "appearance_count": 3,
-          "time_info": "[10时37分 ~ 11时02分]"
+          "time_info": "[09时19分 ~ 09时20分]"
         }
       ]
     },
@@ -604,87 +313,49 @@
       "match_count": 1,
       "titles": [
         {
-          "title": "存储芯片，走向失控",
-          "url": "https://wallstreetcn.com/articles/3765777",
-          "source": "华尔街见闻",
-          "ranks": [
-            5,
-            6
-          ],
-          "is_new": false,
-          "appearance_count": 8,
-          "time_info": "[09时17分 ~ 11时02分]"
-        }
-      ]
-    },
-    {
-      "keyword_group": "新能源 电动汽车 电动车",
-      "match_count": 1,
-      "titles": [
-        {
-          "title": "周一（2月16日），彭博电动汽车价格回报指数跌0.20%，报3624.68点。",
-          "url": "https://wallstreetcn.com/livenews/3055837",
-          "source": "华尔街见闻-快讯",
-          "ranks": [
-            26
-          ],
-          "is_new": false,
-          "appearance_count": 1,
-          "time_info": "09时18分"
-        }
-      ]
-    },
-    {
-      "keyword_group": "贸易战 关税",
-      "match_count": 1,
-      "titles": [
-        {
-          "title": "民进党只会玩权谋！蔡正元曝台当局关税的“切香肠”策略",
-          "url": "https://news.ifeng.com/c/8qoL9ubASaU",
-          "source": "凤凰网",
-          "ranks": [
-            11
-          ],
-          "is_new": false,
-          "appearance_count": 8,
-          "time_info": "[09时17分 ~ 11时02分]"
-        }
-      ]
-    },
-    {
-      "keyword_group": "华为 苹果 特斯拉 微软 谷歌",
-      "match_count": 1,
-      "titles": [
-        {
-          "title": "马斯克：特斯拉Cybercab将于今年4月投产",
-          "url": "https://flash.jin10.com/detail/20260217094659603800",
+          "title": "日本出口额创下三年多来最快增速 芯片出口及汽车出口大幅增长",
+          "url": "https://flash.jin10.com/detail/20260218083954941800",
           "source": "金十数据",
           "ranks": [
-            14,
-            25
+            5
           ],
-          "is_new": false,
-          "appearance_count": 3,
-          "time_info": "[10时37分 ~ 11时02分]"
+          "is_new": true,
+          "appearance_count": 1,
+          "time_info": "09时20分"
         }
       ]
     },
     {
-      "keyword_group": "合作 战略合作",
+      "keyword_group": "财报 业绩",
       "match_count": 1,
       "titles": [
         {
-          "title": "匈牙利与美国签署核能合作协议",
-          "url": "https://wallstreetcn.com/livenews/3055854",
+          "title": "铿腾电子业绩报告要点总结",
+          "url": "https://wallstreetcn.com/livenews/3056185",
           "source": "华尔街见闻-快讯",
           "ranks": [
-            12,
-            20,
-            22
+            3
+          ],
+          "is_new": true,
+          "appearance_count": 1,
+          "time_info": "09时20分"
+        }
+      ]
+    },
+    {
+      "keyword_group": "黄金 金价",
+      "match_count": 1,
+      "titles": [
+        {
+          "title": "金价银价直线跳水",
+          "url": "https://s.weibo.com/weibo?q=%E9%87%91%E4%BB%B7%E9%93%B6%E4%BB%B7%E7%9B%B4%E7%BA%BF%E8%B7%B3%E6%B0%B4&t=31&band_rank=28&Refer=top",
+          "source": "微博",
+          "ranks": [
+            28
           ],
           "is_new": false,
-          "appearance_count": 4,
-          "time_info": "[09时18分 ~ 11时02分]"
+          "appearance_count": 2,
+          "time_info": "[09时19分 ~ 09时20分]"
         }
       ]
     }
