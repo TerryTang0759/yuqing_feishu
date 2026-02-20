@@ -1,127 +1,160 @@
 {
-  "generated_at": "2026-02-19T09:19:41.935314+08:00",
-  "total_titles_processed": 323,
+  "generated_at": "2026-02-20T09:15:19.655119+08:00",
+  "total_titles_processed": 315,
   "failed_sources": [],
   "trends": [
     {
       "keyword_group": "人工智能 AI ChatGPT GPT 大模型",
-      "match_count": 8,
+      "match_count": 12,
       "titles": [
         {
-          "title": "马年春晚黑科技！四家机器人同台献技 AI大模型渗透内容制作",
-          "url": "https://www.cls.cn/detail/2290959",
-          "source": "财联社热门",
+          "title": "日盟警告:字节AI别来沾边",
+          "url": "https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28350787&amp;topic_name=%E6%97%A5%E7%9B%9F%E8%AD%A6%E5%91%8A%3A%E5%AD%97%E8%8A%82AI%E5%88%AB%E6%9D%A5%E6%B2%BE%E8%BE%B9",
+          "source": "贴吧",
           "ranks": [
             1
           ],
           "is_new": false,
           "appearance_count": 2,
-          "time_info": "[09时18分 ~ 09时19分]"
+          "time_info": "[09时14分 ~ 09时15分]"
         },
         {
-          "title": "终末地建模,AI偷偷加料",
-          "url": "https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28350773&amp;topic_name=%E7%BB%88%E6%9C%AB%E5%9C%B0%E5%BB%BA%E6%A8%A1%2CAI%E5%81%B7%E5%81%B7%E5%8A%A0%E6%96%99",
-          "source": "贴吧",
-          "ranks": [
-            2
-          ],
-          "is_new": false,
-          "appearance_count": 2,
-          "time_info": "[09时18分 ~ 09时19分]"
-        },
-        {
-          "title": "段永平试水“AI交易”：卖苹果加仓英伟达，“新入”CoreWeave、Credo和Tempus",
-          "url": "https://wallstreetcn.com/articles/3765830",
+          "title": "为AI交易“背书”！OpenAI正敲定新一轮融资：以8300亿美元估值募资高达1000亿美元",
+          "url": "https://wallstreetcn.com/articles/3765864",
           "source": "华尔街见闻",
           "ranks": [
-            3
+            8
           ],
           "is_new": false,
           "appearance_count": 2,
-          "time_info": "[09时18分 ~ 09时19分]"
+          "time_info": "[09时14分 ~ 09时15分]"
         },
         {
-          "title": "公开和沃什“唱反调”？多位美联储高官称：AI提升生产力或意味着“更高的中性利率”",
-          "url": "https://wallstreetcn.com/articles/3765833",
-          "source": "华尔街见闻",
-          "ranks": [
-            6
-          ],
-          "is_new": false,
-          "appearance_count": 2,
-          "time_info": "[09时18分 ~ 09时19分]"
-        },
-        {
-          "title": "1万亿美元蒸发背后：垂直软件的护城河，正在被大模型重写",
-          "url": "https://wallstreetcn.com/articles/3765835",
+          "title": "什么样的软件会被AI淘汰？",
+          "url": "https://wallstreetcn.com/articles/3765860",
           "source": "华尔街见闻",
           "ranks": [
             9
           ],
           "is_new": false,
           "appearance_count": 2,
-          "time_info": "[09时18分 ~ 09时19分]"
+          "time_info": "[09时14分 ~ 09时15分]"
         },
         {
-          "title": "AI大战:鹅厂阿里双双出局",
-          "url": "https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28350765&amp;topic_name=AI%E5%A4%A7%E6%88%98%3A%E9%B9%85%E5%8E%82%E9%98%BF%E9%87%8C%E5%8F%8C%E5%8F%8C%E5%87%BA%E5%B1%80",
+          "title": "西方跳脚:东大AI惹怒上帝",
+          "url": "https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28350778&amp;topic_name=%E8%A5%BF%E6%96%B9%E8%B7%B3%E8%84%9A%3A%E4%B8%9C%E5%A4%A7AI%E6%83%B9%E6%80%92%E4%B8%8A%E5%B8%9D",
+          "source": "贴吧",
+          "ranks": [
+            9
+          ],
+          "is_new": false,
+          "appearance_count": 2,
+          "time_info": "[09时14分 ~ 09时15分]"
+        },
+        {
+          "title": "终末地建模,AI偷偷加料",
+          "url": "https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28350773&amp;topic_name=%E7%BB%88%E6%9C%AB%E5%9C%B0%E5%BB%BA%E6%A8%A1%2CAI%E5%81%B7%E5%81%B7%E5%8A%A0%E6%96%99",
           "source": "贴吧",
           "ranks": [
             12
           ],
           "is_new": false,
           "appearance_count": 2,
-          "time_info": "[09时18分 ~ 09时19分]"
+          "time_info": "[09时14分 ~ 09时15分]"
+        },
+        {
+          "title": "AI大战:鹅厂阿里双双出局",
+          "url": "https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28350765&amp;topic_name=AI%E5%A4%A7%E6%88%98%3A%E9%B9%85%E5%8E%82%E9%98%BF%E9%87%8C%E5%8F%8C%E5%8F%8C%E5%87%BA%E5%B1%80",
+          "source": "贴吧",
+          "ranks": [
+            23
+          ],
+          "is_new": false,
+          "appearance_count": 2,
+          "time_info": "[09时14分 ~ 09时15分]"
         },
         {
           "title": "疑似ai?鹰角整活六指琴魔",
           "url": "https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28350758&amp;topic_name=%E7%96%91%E4%BC%BCai%3F%E9%B9%B0%E8%A7%92%E6%95%B4%E6%B4%BB%E5%85%AD%E6%8C%87%E7%90%B4%E9%AD%94",
           "source": "贴吧",
           "ranks": [
-            18
+            29
           ],
           "is_new": false,
           "appearance_count": 2,
-          "time_info": "[09时18分 ~ 09时19分]"
+          "time_info": "[09时14分 ~ 09时15分]"
         },
         {
-          "title": "中国科研团队研发出AI看病系统",
-          "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E7%A7%91%E7%A0%94%E5%9B%A2%E9%98%9F%E7%A0%94%E5%8F%91%E5%87%BAAI%E7%9C%8B%E7%97%85%E7%B3%BB%E7%BB%9F",
-          "source": "百度热搜",
+          "title": "英伟达接近敲定与OpenAI的300亿美元投资，将取代两家公司去年达成的1000亿美元长期承诺。英伟达投资是OpenAI新一轮融资的一部分。（英国金融时报）",
+          "url": "https://wallstreetcn.com/livenews/3056832",
+          "source": "华尔街见闻-快讯",
           "ranks": [
-            28
+            6
           ],
-          "is_new": false,
-          "appearance_count": 2,
-          "time_info": "[09时18分 ~ 09时19分]"
+          "is_new": true,
+          "appearance_count": 1,
+          "time_info": "09时15分"
+        },
+        {
+          "title": "英伟达接近敲定300亿美元投资OpenAI 取代原1000亿合作计划",
+          "url": "https://flash.jin10.com/detail/20260220082223005800",
+          "source": "金十数据",
+          "ranks": [
+            15
+          ],
+          "is_new": true,
+          "appearance_count": 1,
+          "time_info": "09时15分"
+        },
+        {
+          "title": "OpenAI：关于芯片供应，公司已做到“对未来需求心中有数”",
+          "url": "https://wallstreetcn.com/livenews/3056822",
+          "source": "华尔街见闻-快讯",
+          "ranks": [
+            16
+          ],
+          "is_new": true,
+          "appearance_count": 1,
+          "time_info": "09时15分"
+        },
+        {
+          "title": "据英国金融时报：英伟达接近敲定与OpenAI的300亿美元投资，将取代两家公司去年达成的1000亿美元长期承诺。",
+          "url": "https://flash.jin10.com/detail/20260220081800116800",
+          "source": "金十数据",
+          "ranks": [
+            17
+          ],
+          "is_new": true,
+          "appearance_count": 1,
+          "time_info": "09时15分"
+        },
+        {
+          "title": "市场消息：白宫顾问克拉齐奥斯将在印度峰会上公布人工智能计划。",
+          "url": "https://flash.jin10.com/detail/20260220080116989800",
+          "source": "金十数据",
+          "ranks": [
+            23
+          ],
+          "is_new": true,
+          "appearance_count": 1,
+          "time_info": "09时15分"
         }
       ]
     },
     {
       "keyword_group": "美股 纳斯达克 道琼斯 标普500",
-      "match_count": 5,
+      "match_count": 7,
       "titles": [
         {
-          "title": "科技股力撑美股两连阳，美联储自曝通胀担忧，道指盘中闪跌，美伊风险助原油大反弹",
-          "url": "https://wallstreetcn.com/articles/3765834",
+          "title": "科技股拖累美股，金融股砸盘，美伊开打危险撑原油至半年新高，降息分歧压制黄金涨势",
+          "url": "https://wallstreetcn.com/articles/3765856",
           "source": "华尔街见闻",
           "ranks": [
             1
           ],
           "is_new": false,
           "appearance_count": 2,
-          "time_info": "[09时18分 ~ 09时19分]"
-        },
-        {
-          "title": "摩根大通交易台：“先卖再问”的美股AI抛售潮即将结束，抄底软件股的时候到了",
-          "url": "https://wallstreetcn.com/articles/3765829",
-          "source": "华尔街见闻",
-          "ranks": [
-            4
-          ],
-          "is_new": false,
-          "appearance_count": 2,
-          "time_info": "[09时18分 ~ 09时19分]"
+          "time_info": "[09时14分 ~ 09时15分]"
         },
         {
           "title": "“AI恐慌交易”持续发酵 美股三大期指小幅走低 | 今夜看点",
@@ -132,270 +165,330 @@
           ],
           "is_new": false,
           "appearance_count": 2,
-          "time_info": "[09时18分 ~ 09时19分]"
+          "time_info": "[09时14分 ~ 09时15分]"
         },
         {
           "title": "美股三大期指集体走高 美联储将公布1月会议纪要 | 今夜看点",
           "url": "https://www.cls.cn/detail/2291551",
           "source": "财联社热门",
           "ranks": [
-            8
+            9
           ],
           "is_new": false,
           "appearance_count": 2,
-          "time_info": "[09时18分 ~ 09时19分]"
+          "time_info": "[09时14分 ~ 09时15分]"
         },
         {
-          "title": "美股收盘：三大指数小幅收升 英伟达Meta深化合作关系",
-          "url": "https://www.cls.cn/detail/2291354",
+          "title": "美股收盘：“七巨头”集体走高 三大指数齐收涨",
+          "url": "https://www.cls.cn/detail/2291660",
           "source": "财联社热门",
           "ranks": [
             11
           ],
           "is_new": false,
           "appearance_count": 2,
-          "time_info": "[09时18分 ~ 09时19分]"
-        }
-      ]
-    },
-    {
-      "keyword_group": "华为 苹果 特斯拉 微软 谷歌",
-      "match_count": 4,
-      "titles": [
-        {
-          "title": "巴菲特“收山之作”：Q4再抛苹果美银，猛砍亚马逊，首次新进纽约时报",
-          "url": "https://wallstreetcn.com/articles/3765821",
-          "source": "华尔街见闻",
-          "ranks": [
-            2
-          ],
-          "is_new": false,
-          "appearance_count": 2,
-          "time_info": "[09时18分 ~ 09时19分]"
+          "time_info": "[09时14分 ~ 09时15分]"
         },
         {
-          "title": "特斯拉首辆Cybercab下线：没有方向盘和踏板的汽车终于来了",
-          "url": "https://wallstreetcn.com/articles/3765831",
-          "source": "华尔街见闻",
-          "ranks": [
-            5
-          ],
-          "is_new": false,
-          "appearance_count": 2,
-          "time_info": "[09时18分 ~ 09时19分]"
-        },
-        {
-          "title": "巴菲特交棒前最后一份13F：减持苹果和美银 加仓能源与保险",
-          "url": "https://www.cls.cn/detail/2291376",
-          "source": "财联社热门",
-          "ranks": [
-            9
-          ],
-          "is_new": false,
-          "appearance_count": 2,
-          "time_info": "[09时18分 ~ 09时19分]"
-        },
-        {
-          "title": "苹果考虑引入长鑫和长江存储",
-          "url": "https://search.bilibili.com/all?keyword=%E8%8B%B9%E6%9E%9C%E8%80%83%E8%99%91%E5%BC%95%E5%85%A5%E9%95%BF%E9%91%AB%E5%92%8C%E9%95%BF%E6%B1%9F%E5%AD%98%E5%82%A8",
-          "source": "bilibili 热搜",
-          "ranks": [
-            7
-          ],
-          "is_new": true,
-          "appearance_count": 1,
-          "time_info": "09时19分"
-        }
-      ]
-    },
-    {
-      "keyword_group": "黄金 金价",
-      "match_count": 3,
-      "titles": [
-        {
-          "title": "带黄金马桶去漫展如何呢",
-          "url": "https://search.bilibili.com/all?keyword=%E5%B8%A6%E9%BB%84%E9%87%91%E9%A9%AC%E6%A1%B6%E5%8E%BB%E6%BC%AB%E5%B1%95%E5%A6%82%E4%BD%95%E5%91%A2",
-          "source": "bilibili 热搜",
-          "ranks": [
-            2
-          ],
-          "is_new": true,
-          "appearance_count": 1,
-          "time_info": "09时19分"
-        },
-        {
-          "title": "专家：黄金还有进一步上涨的动能",
-          "url": "https://www.toutiao.com/trending/7607642368648462399/",
-          "source": "今日头条",
+          "title": "Applovin美股盘后涨超4%。据悉OpenAI拟与Applovin展开合作，通过广告实现商业化。",
+          "url": "https://flash.jin10.com/detail/20260220074924192800",
+          "source": "金十数据",
           "ranks": [
             26
           ],
-          "is_new": false,
-          "appearance_count": 2,
-          "time_info": "[09时18分 ~ 09时19分]"
+          "is_new": true,
+          "appearance_count": 1,
+          "time_info": "09时15分"
         },
         {
-          "title": "阿耳忒弥斯黄金公司预计在2026年生产26.5万至29万盎司黄金。",
-          "url": "https://flash.jin10.com/detail/20260219082242574800",
-          "source": "金十数据",
+          "title": "周四（2月19日）纽约尾盘，标普500股指期货最终跌0.37%，道指期货跌0.61%，纳斯达克100股指期货跌0.53%。 罗素2000股指期货涨0.01%。",
+          "url": "https://wallstreetcn.com/livenews/3056807",
+          "source": "华尔街见闻-快讯",
           "ranks": [
-            12
+            29
           ],
           "is_new": true,
           "appearance_count": 1,
-          "time_info": "09时19分"
-        }
-      ]
-    },
-    {
-      "keyword_group": "芯片 半导体 集成电路",
-      "match_count": 2,
-      "titles": [
-        {
-          "title": "美国-东盟商业理事会：美印协议包括一项涉及Essence Global Group的48.9亿美元半导体合资项目。",
-          "url": "https://flash.jin10.com/detail/20260219081720763800",
-          "source": "金十数据",
-          "ranks": [
-            16
-          ],
-          "is_new": true,
-          "appearance_count": 1,
-          "time_info": "09时19分"
+          "time_info": "09时15分"
         },
         {
-          "title": "美国-东盟商业理事会：美国与印尼企业签署贸易及投资协议，涉及关键矿产、半导体合作、美国农业及林产品出口。印尼企业将在未明确期限内采购100万吨美国大豆、160万吨玉米和9.3万吨棉花。",
-          "url": "https://flash.jin10.com/detail/20260219081508439800",
-          "source": "金十数据",
+          "title": "美股大类资产类ETF涨跌各异，布油基金涨超2.2%",
+          "url": "https://wallstreetcn.com/livenews/3056806",
+          "source": "华尔街见闻-快讯",
           "ranks": [
-            19
+            30
           ],
           "is_new": true,
           "appearance_count": 1,
-          "time_info": "09时19分"
+          "time_info": "09时15分"
         }
       ]
     },
     {
       "keyword_group": "央行 货币政策 降息 降准 加息",
-      "match_count": 2,
+      "match_count": 7,
       "titles": [
         {
-          "title": "美联储会议纪要暴巨大分歧：一些官员支持进一步降息，一些暗示加息可能",
-          "url": "https://wallstreetcn.com/articles/3765847",
+          "title": "菲律宾央行行长：我们将重点关注通胀，但当前面临大量不确定性。",
+          "url": "https://flash.jin10.com/detail/20260220084000840800",
+          "source": "金十数据",
+          "ranks": [
+            2
+          ],
+          "is_new": true,
+          "appearance_count": 1,
+          "time_info": "09时15分"
+        },
+        {
+          "title": "菲律宾央行行长：我们确实在关注菲律宾比索，但并不担心其日常波动。",
+          "url": "https://flash.jin10.com/detail/20260220083949756800",
+          "source": "金十数据",
+          "ranks": [
+            3
+          ],
+          "is_new": true,
+          "appearance_count": 1,
+          "time_info": "09时15分"
+        },
+        {
+          "title": "鹰派预期升温！多数经济学家预测日央行将提前加息，最早或在3月",
+          "url": "https://wallstreetcn.com/articles/3765871",
           "source": "华尔街见闻",
           "ranks": [
             10
           ],
           "is_new": false,
           "appearance_count": 2,
-          "time_info": "[09时18分 ~ 09时19分]"
+          "time_info": "[09时14分 ~ 09时15分]"
         },
         {
-          "title": "高市早苗将提名日本央行新委员 或安插通货复涨派人士",
-          "url": "https://flash.jin10.com/detail/20260219075723631800",
+          "title": "新西兰联储主席布雷曼：着眼未来并不意味着货币政策已按既定路线行进。我们将根据新信息调整我们的计划，并且始终以未来为导向。",
+          "url": "https://flash.jin10.com/detail/20260220082626487800",
           "source": "金十数据",
-          "ranks": [
-            25
-          ],
-          "is_new": true,
-          "appearance_count": 1,
-          "time_info": "09时19分"
-        }
-      ]
-    },
-    {
-      "keyword_group": "地缘政治 冲突",
-      "match_count": 2,
-      "titles": [
-        {
-          "title": "韩方：尹锡悦政府11次向平壤放飞无人机，诱导军事冲突",
-          "url": "https://news.ifeng.com/c/8qqMUsTpofR",
-          "source": "凤凰网",
           "ranks": [
             9
           ],
-          "is_new": false,
-          "appearance_count": 2,
-          "time_info": "[09时18分 ~ 09时19分]"
+          "is_new": true,
+          "appearance_count": 1,
+          "time_info": "09时15分"
         },
         {
-          "title": "“关乎国家生存”：地缘政治紧张加剧，欧洲各国加速推进数字主权",
-          "url": "https://wallstreetcn.com/livenews/3056539",
+          "title": "景顺与卡米尼亚克做空美债，看淡美联储降息空间",
+          "url": "https://wallstreetcn.com/livenews/3056819",
           "source": "华尔街见闻-快讯",
           "ranks": [
-            22
+            19
           ],
           "is_new": true,
           "appearance_count": 1,
-          "time_info": "09时19分"
+          "time_info": "09时15分"
+        },
+        {
+          "title": "白宫顾问Yared为哈塞特批评美联储研究辩护，否认对央行独立性构成攻击",
+          "url": "https://wallstreetcn.com/livenews/3056815",
+          "source": "华尔街见闻-快讯",
+          "ranks": [
+            23
+          ],
+          "is_new": true,
+          "appearance_count": 1,
+          "time_info": "09时15分"
+        },
+        {
+          "title": "日本通胀缓和 为央行下一步行动提供喘息空间",
+          "url": "https://flash.jin10.com/detail/20260220074849696800",
+          "source": "金十数据",
+          "ranks": [
+            27
+          ],
+          "is_new": true,
+          "appearance_count": 1,
+          "time_info": "09时15分"
         }
       ]
     },
     {
-      "keyword_group": "新能源 电动汽车 电动车",
-      "match_count": 1,
+      "keyword_group": "芯片 半导体 集成电路",
+      "match_count": 5,
       "titles": [
         {
-          "title": "骑电动车16天回家过年",
-          "url": "https://search.bilibili.com/all?keyword=%E9%AA%91%E7%94%B5%E5%8A%A8%E8%BD%A616%E5%A4%A9%E5%9B%9E%E5%AE%B6%E8%BF%87%E5%B9%B4",
-          "source": "bilibili 热搜",
+          "title": "“存储荒”愈演愈烈！三星HBM4据称涨价30% 韩国“芯片双雄”积极扩产",
+          "url": "https://www.cls.cn/detail/2291781",
+          "source": "财联社热门",
           "ranks": [
-            1
+            3
           ],
           "is_new": false,
           "appearance_count": 2,
-          "time_info": "[09时18分 ~ 09时19分]"
-        }
-      ]
-    },
-    {
-      "keyword_group": "监管 政策",
-      "match_count": 1,
-      "titles": [
+          "time_info": "[09时14分 ~ 09时15分]"
+        },
         {
-          "title": "高市连任后，就安保问题、对华政策等表态",
-          "url": "https://news.ifeng.com/c/8qrAxqIMvOb",
-          "source": "凤凰网",
+          "title": "黄仁勋：将在3月发布“世界前所未见”的全新芯片",
+          "url": "https://www.cls.cn/detail/2291708",
+          "source": "财联社热门",
           "ranks": [
-            1
+            4
           ],
           "is_new": false,
           "appearance_count": 2,
-          "time_info": "[09时18分 ~ 09时19分]"
+          "time_info": "[09时14分 ~ 09时15分]"
+        },
+        {
+          "title": "黄仁勋预告“前所未见”的芯片新品，下一代Feynman架构或成焦点",
+          "url": "https://wallstreetcn.com/articles/3765868",
+          "source": "华尔街见闻",
+          "ranks": [
+            5
+          ],
+          "is_new": false,
+          "appearance_count": 2,
+          "time_info": "[09时14分 ~ 09时15分]"
+        },
+        {
+          "title": "原来公募春节前就在集中调研，机器人、半导体、有色金属都是调研热点",
+          "url": "https://www.cls.cn/detail/2291772",
+          "source": "财联社热门",
+          "ranks": [
+            5
+          ],
+          "is_new": false,
+          "appearance_count": 2,
+          "time_info": "[09时14分 ~ 09时15分]"
+        },
+        {
+          "title": "2月科创板领涨名单扫描：半导体、光通信成牛股温床 多公司创历史新高",
+          "url": "https://www.cls.cn/detail/2291363",
+          "source": "财联社热门",
+          "ranks": [
+            12
+          ],
+          "is_new": false,
+          "appearance_count": 2,
+          "time_info": "[09时14分 ~ 09时15分]"
         }
       ]
     },
     {
       "keyword_group": "原油 石油",
+      "match_count": 2,
+      "titles": [
+        {
+          "title": "原油贵金属大幅收涨 消息称美以或将联合袭击伊朗 | 环球市场",
+          "url": "https://www.cls.cn/detail/2291663",
+          "source": "财联社热门",
+          "ranks": [
+            10
+          ],
+          "is_new": false,
+          "appearance_count": 2,
+          "time_info": "[09时14分 ~ 09时15分]"
+        },
+        {
+          "title": "哥伦比亚国家石油公司（Ecopetrol）：截至2025年底，其已探明储量为19.44亿桶油当量。",
+          "url": "https://flash.jin10.com/detail/20260220082904800800",
+          "source": "金十数据",
+          "ranks": [
+            8
+          ],
+          "is_new": true,
+          "appearance_count": 1,
+          "time_info": "09时15分"
+        }
+      ]
+    },
+    {
+      "keyword_group": "制造业 工业",
+      "match_count": 2,
+      "titles": [
+        {
+          "title": "日本2月制造业PMI初值 52.8，前值 51.5。",
+          "url": "https://wallstreetcn.com/livenews/3056835",
+          "source": "华尔街见闻-快讯",
+          "ranks": [
+            3
+          ],
+          "is_new": true,
+          "appearance_count": 1,
+          "time_info": "09时15分"
+        },
+        {
+          "title": "日本2月制造业PMI初值 52.8，前值51.5。",
+          "url": "https://flash.jin10.com/detail/20260220083002200800",
+          "source": "金十数据",
+          "ranks": [
+            6
+          ],
+          "is_new": true,
+          "appearance_count": 1,
+          "time_info": "09时15分"
+        }
+      ]
+    },
+    {
+      "keyword_group": "5G 6G 通信技术",
       "match_count": 1,
       "titles": [
         {
-          "title": "美国-东盟商业理事会：印尼国家石油公司与哈里伯顿公司将在油田恢复领域展开合作。",
-          "url": "https://flash.jin10.com/detail/20260219081604028800",
-          "source": "金十数据",
+          "title": "我国在光通信及6G领域取得新进展",
+          "url": "https://www.douyin.com/hot/2406278",
+          "source": "抖音",
+          "ranks": [
+            3
+          ],
+          "is_new": false,
+          "appearance_count": 2,
+          "time_info": "[09时14分 ~ 09时15分]"
+        }
+      ]
+    },
+    {
+      "keyword_group": "贸易战 关税",
+      "match_count": 1,
+      "titles": [
+        {
+          "title": "美联储戴利：随着关税影响消退，预计良好的通胀数据将再次出现。",
+          "url": "https://wallstreetcn.com/livenews/3056821",
+          "source": "华尔街见闻-快讯",
           "ranks": [
             17
           ],
           "is_new": true,
           "appearance_count": 1,
-          "time_info": "09时19分"
+          "time_info": "09时15分"
         }
       ]
     },
     {
-      "keyword_group": "金融 银行",
+      "keyword_group": "黄金 金价",
       "match_count": 1,
       "titles": [
         {
-          "title": "贝森特和沃什的“导师”，德鲁肯米勒Q4“精准”开仓金融股ETF、标普等权重ETF和巴西ETF",
-          "url": "https://wallstreetcn.com/articles/3765838",
-          "source": "华尔街见闻",
+          "title": "带黄金马桶去漫展如何呢",
+          "url": "https://search.bilibili.com/all?keyword=%E5%B8%A6%E9%BB%84%E9%87%91%E9%A9%AC%E6%A1%B6%E5%8E%BB%E6%BC%AB%E5%B1%95%E5%A6%82%E4%BD%95%E5%91%A2",
+          "source": "bilibili 热搜",
+          "ranks": [
+            27
+          ],
+          "is_new": false,
+          "appearance_count": 2,
+          "time_info": "[09时14分 ~ 09时15分]"
+        }
+      ]
+    },
+    {
+      "keyword_group": "华为 苹果 特斯拉 微软 谷歌",
+      "match_count": 1,
+      "titles": [
+        {
+          "title": "巴菲特交棒前最后一份13F：减持苹果和美银 加仓能源与保险",
+          "url": "https://www.cls.cn/detail/2291376",
+          "source": "财联社热门",
           "ranks": [
             8
           ],
           "is_new": false,
           "appearance_count": 2,
-          "time_info": "[09时18分 ~ 09时19分]"
+          "time_info": "[09时14分 ~ 09时15分]"
         }
       ]
     }
