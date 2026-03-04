@@ -1,265 +1,316 @@
 {
-  "generated_at": "2026-03-03T09:18:51.924499+08:00",
-  "total_titles_processed": 316,
+  "generated_at": "2026-03-04T09:14:57.087116+08:00",
+  "total_titles_processed": 315,
   "failed_sources": [],
   "trends": [
     {
       "keyword_group": "人工智能 AI ChatGPT GPT 大模型",
-      "match_count": 9,
+      "match_count": 10,
       "titles": [
         {
-          "title": "阿尔特曼回应“牵手”五角大楼：仓促、观感差 但我们是为了AI行业",
-          "url": "https://www.cls.cn/detail/2300009",
+          "title": "19岁天才少年做AI应用年入2亿",
+          "url": "https://www.baidu.com/s?wd=19%E5%B2%81%E5%A4%A9%E6%89%8D%E5%B0%91%E5%B9%B4%E5%81%9AAI%E5%BA%94%E7%94%A8%E5%B9%B4%E5%85%A52%E4%BA%BF",
+          "source": "百度热搜",
+          "ranks": [
+            4
+          ],
+          "is_new": false,
+          "appearance_count": 2,
+          "time_info": "[09时13分 ~ 09时14分]"
+        },
+        {
+          "title": "OpenAI正在考虑达成一项协议，将其AI部署在北约的所有机密网络上。（The Information）",
+          "url": "https://wallstreetcn.com/livenews/3063132",
+          "source": "华尔街见闻-快讯",
+          "ranks": [
+            1
+          ],
+          "is_new": true,
+          "appearance_count": 1,
+          "time_info": "09时14分"
+        },
+        {
+          "title": "沪指跌超1%，“三桶油”再度集体涨停，半导体产业链大跌，恒科指跌超2%，大模型股MINIMAX逆势涨超9%",
+          "url": "https://wallstreetcn.com/articles/3766588",
+          "source": "华尔街见闻",
+          "ranks": [
+            6
+          ],
+          "is_new": false,
+          "appearance_count": 2,
+          "time_info": "[09时13分 ~ 09时14分]"
+        },
+        {
+          "title": "AI加剧“电荒” 美国电网将迎史诗级扩建 750亿美元聚焦“超高压”输电",
+          "url": "https://www.cls.cn/detail/2301441",
           "source": "财联社热门",
           "ranks": [
             6
           ],
           "is_new": false,
           "appearance_count": 2,
-          "time_info": "[09时17分 ~ 09时18分]"
+          "time_info": "[09时13分 ~ 09时14分]"
         },
         {
-          "title": "苹果发布iPhone 17e与新款iPad Air，定价不变主打中端市场",
-          "url": "https://wallstreetcn.com/articles/3766555",
+          "title": "建议为AI生成内容添加不可去除水印",
+          "url": "https://www.baidu.com/s?wd=%E5%BB%BA%E8%AE%AE%E4%B8%BAAI%E7%94%9F%E6%88%90%E5%86%85%E5%AE%B9%E6%B7%BB%E5%8A%A0%E4%B8%8D%E5%8F%AF%E5%8E%BB%E9%99%A4%E6%B0%B4%E5%8D%B0",
+          "source": "百度热搜",
+          "ranks": [
+            7
+          ],
+          "is_new": false,
+          "appearance_count": 2,
+          "time_info": "[09时13分 ~ 09时14分]"
+        },
+        {
+          "title": "19岁天才少年做AI应用年入2亿",
+          "url": "https://www.toutiao.com/trending/7612983983969668662/",
+          "source": "今日头条",
+          "ranks": [
+            9
+          ],
+          "is_new": false,
+          "appearance_count": 2,
+          "time_info": "[09时13分 ~ 09时14分]"
+        },
+        {
+          "title": "Claude崩了，全球AI因何“熔断”？",
+          "url": "https://wallstreetcn.com/articles/3766631",
           "source": "华尔街见闻",
-          "ranks": [
-            8
-          ],
-          "is_new": false,
-          "appearance_count": 2,
-          "time_info": "[09时17分 ~ 09时18分]"
-        },
-        {
-          "title": "马上评｜如何看待学生作业中的“AI味儿”",
-          "url": "https://m.thepaper.cn/newsDetail_forward_32683027",
-          "source": "澎湃新闻",
-          "ranks": [
-            8
-          ],
-          "is_new": false,
-          "appearance_count": 2,
-          "time_info": "[09时17分 ~ 09时18分]"
-        },
-        {
-          "title": "演员王劲松遭 AI 盗用形象生成视频，如何界定 AI 侵权，普通人该如何防范？",
-          "url": "https://www.zhihu.com/question/2010702851366674730",
-          "source": "知乎",
           "ranks": [
             10
           ],
           "is_new": false,
           "appearance_count": 2,
-          "time_info": "[09时17分 ~ 09时18分]"
+          "time_info": "[09时13分 ~ 09时14分]"
         },
         {
-          "title": "衡水中学设置 AI 监控系统，200 多个智能感知节点捕捉学生行为，如何评价此举措？能有效管理学生吗？",
-          "url": "https://www.zhihu.com/question/2011927999839172012",
-          "source": "知乎",
-          "ranks": [
-            11
-          ],
-          "is_new": false,
-          "appearance_count": 2,
-          "time_info": "[09时17分 ~ 09时18分]"
-        },
-        {
-          "title": "剑星AI作图抄袭,反手拉黑原创",
-          "url": "https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28351206&amp;topic_name=%E5%89%91%E6%98%9FAI%E4%BD%9C%E5%9B%BE%E6%8A%84%E8%A2%AD%2C%E5%8F%8D%E6%89%8B%E6%8B%89%E9%BB%91%E5%8E%9F%E5%88%9B",
-          "source": "贴吧",
+          "title": "马云，新年现身！谈了AI",
+          "url": "https://www.cls.cn/detail/2301784",
+          "source": "财联社热门",
           "ranks": [
             12
           ],
           "is_new": false,
           "appearance_count": 2,
-          "time_info": "[09时17分 ~ 09时18分]"
+          "time_info": "[09时13分 ~ 09时14分]"
         },
         {
-          "title": "据伊朗媒体Daily Iran News：美国正在将增援部队调往指定位置。共有十五架KC-135R/T空中加油机正前往中央司令部，其中四架飞越欧洲，十一架飞越北美。三架已达到空中加油高度，表明准备进行长期作战活动。",
-          "url": "https://flash.jin10.com/detail/20260303083727989800",
-          "source": "金十数据",
+          "title": "美团首款AI浏览器陷“抄袭代码”风波？多方回应",
+          "url": "https://m.thepaper.cn/newsDetail_forward_32691228",
+          "source": "澎湃新闻",
           "ranks": [
-            7
+            17
           ],
-          "is_new": true,
-          "appearance_count": 1,
-          "time_info": "09时18分"
+          "is_new": false,
+          "appearance_count": 2,
+          "time_info": "[09时13分 ~ 09时14分]"
         },
         {
-          "title": "OpenAI与美国国防部在合作协议中新增更多监控保护条款。（AXIOS）",
-          "url": "https://wallstreetcn.com/livenews/3062254",
+          "title": "阿里千问大模型技术负责人自宣卸任",
+          "url": "https://wallstreetcn.com/livenews/3063116",
           "source": "华尔街见闻-快讯",
           "ranks": [
-            11
+            13
           ],
           "is_new": true,
           "appearance_count": 1,
-          "time_info": "09时18分"
-        },
-        {
-          "title": "日本财务大臣片山皋月：考虑在金融实践中使用AI至关重要。",
-          "url": "https://wallstreetcn.com/livenews/3062235",
-          "source": "华尔街见闻-快讯",
-          "ranks": [
-            30
-          ],
-          "is_new": true,
-          "appearance_count": 1,
-          "time_info": "09时18分"
+          "time_info": "09时14分"
         }
       ]
     },
     {
       "keyword_group": "原油 石油",
-      "match_count": 8,
+      "match_count": 6,
       "titles": [
         {
-          "title": "【早报】油价飙涨！伊朗：将打击所有试图通过霍尔木兹海峡的船只；石油基金LOF今日停牌1小时",
-          "url": "https://www.cls.cn/detail/2300496",
+          "title": "中国石油发布公告",
+          "url": "https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E7%9F%B3%E6%B2%B9%E5%8F%91%E5%B8%83%E5%85%AC%E5%91%8A%23&t=31&band_rank=1&Refer=top",
+          "source": "微博",
+          "ranks": [
+            1
+          ],
+          "is_new": false,
+          "appearance_count": 2,
+          "time_info": "[09时13分 ~ 09时14分]"
+        },
+        {
+          "title": "中国石油、中国石化、中国海油齐发股价异动公告",
+          "url": "https://www.cls.cn/detail/2301599",
+          "source": "财联社热门",
+          "ranks": [
+            2
+          ],
+          "is_new": false,
+          "appearance_count": 2,
+          "time_info": "[09时13分 ~ 09时14分]"
+        },
+        {
+          "title": "10亿桶石油库存待命！报道：IEA拟罕见出手稳定市场",
+          "url": "https://wallstreetcn.com/articles/3766636",
+          "source": "华尔街见闻",
+          "ranks": [
+            4,
+            5
+          ],
+          "is_new": false,
+          "appearance_count": 2,
+          "time_info": "[09时13分 ~ 09时14分]"
+        },
+        {
+          "title": "伊朗：不会允许一滴石油流出",
+          "url": "https://www.douyin.com/hot/2417928",
+          "source": "抖音",
+          "ranks": [
+            9
+          ],
+          "is_new": false,
+          "appearance_count": 2,
+          "time_info": "[09时13分 ~ 09时14分]"
+        },
+        {
+          "title": "商品期货开盘，原油主力合约涨停，燃料油涨超12%，LU燃油涨超9%，液化气涨6%，甲醇涨超4%。沪锡跌超7%，沪银跌近6%，橡胶、沪金跌超3%。",
+          "url": "https://wallstreetcn.com/livenews/3063126",
+          "source": "华尔街见闻-快讯",
+          "ranks": [
+            7
+          ],
+          "is_new": true,
+          "appearance_count": 1,
+          "time_info": "09时14分"
+        },
+        {
+          "title": "早盘开盘，国内期货主力合约涨多跌少，集运欧线涨近20%，SC原油封涨停，燃油涨超12%，低硫燃料油（LU）涨近10%，液化石油气（LPG）涨超6%，甲醇涨超4%。跌幅方面，沪锡跌超7%，沪银跌超5%。",
+          "url": "https://flash.jin10.com/detail/20260304090007694800",
+          "source": "金十数据",
+          "ranks": [
+            9
+          ],
+          "is_new": true,
+          "appearance_count": 1,
+          "time_info": "09时14分"
+        }
+      ]
+    },
+    {
+      "keyword_group": "黄金 金价",
+      "match_count": 6,
+      "titles": [
+        {
+          "title": "黄金盘中跌超 3%，一度跌破 5100 美元，现货白银暴跌 12%，一度跌破 80 美元，发生了什么？",
+          "url": "https://www.zhihu.com/question/2012256191544320809",
+          "source": "知乎",
+          "ranks": [
+            8
+          ],
+          "is_new": false,
+          "appearance_count": 2,
+          "time_info": "[09时13分 ~ 09时14分]"
+        },
+        {
+          "title": "美元走强压倒避险需求 黄金日内跌超4% 白银一度暴跌近13%",
+          "url": "https://www.cls.cn/detail/2301724",
+          "source": "财联社热门",
+          "ranks": [
+            9
+          ],
+          "is_new": false,
+          "appearance_count": 2,
+          "time_info": "[09时13分 ~ 09时14分]"
+        },
+        {
+          "title": "年少的出发比黄金珍贵",
+          "url": "https://www.douyin.com/hot/2418170",
+          "source": "抖音",
+          "ranks": [
+            14
+          ],
+          "is_new": false,
+          "appearance_count": 2,
+          "time_info": "[09时13分 ~ 09时14分]"
+        },
+        {
+          "title": "上海黄金交易所黄金T+D 3月4日（周三）早盘盘初下跌3.09%报1149.72元/克；<br/>上海黄金交易所白银T+D 3月4日（周三）早盘盘初下跌4.69%报21220.0元/千克。",
+          "url": "https://flash.jin10.com/detail/20260304090041196800",
+          "source": "金十数据",
+          "ranks": [
+            6
+          ],
+          "is_new": true,
+          "appearance_count": 1,
+          "time_info": "09时14分"
+        },
+        {
+          "title": "现货黄金日内涨幅扩大至1%，报5139.59美元/盎司。",
+          "url": "https://wallstreetcn.com/livenews/3063117",
+          "source": "华尔街见闻-快讯",
+          "ranks": [
+            12
+          ],
+          "is_new": true,
+          "appearance_count": 1,
+          "time_info": "09时14分"
+        },
+        {
+          "title": "现货黄金日内涨幅扩大至1.00%，现报5139.22美元/盎司。",
+          "url": "https://flash.jin10.com/detail/20260304084903955800",
+          "source": "金十数据",
+          "ranks": [
+            13
+          ],
+          "is_new": true,
+          "appearance_count": 1,
+          "time_info": "09时14分"
+        }
+      ]
+    },
+    {
+      "keyword_group": "美股 纳斯达克 道琼斯 标普500",
+      "match_count": 4,
+      "titles": [
+        {
+          "title": "特朗普承诺“护航”，美股指跌幅收窄，美债企稳，美元强势二连涨，原油冲高回落涨5%，金银重挫",
+          "url": "https://wallstreetcn.com/articles/3766590",
+          "source": "华尔街见闻",
+          "ranks": [
+            1
+          ],
+          "is_new": false,
+          "appearance_count": 2,
+          "time_info": "[09时13分 ~ 09时14分]"
+        },
+        {
+          "title": "美股收盘：中东冲突加剧通胀担忧 三大股指集体收跌",
+          "url": "https://www.cls.cn/detail/2301893",
           "source": "财联社热门",
           "ranks": [
             1
           ],
           "is_new": false,
           "appearance_count": 2,
-          "time_info": "[09时17分 ~ 09时18分]"
+          "time_info": "[09时13分 ~ 09时14分]"
         },
         {
-          "title": "最多只能撑25天？摩根大通警告：霍尔木兹海峡若封锁，存储限制或导致中东原油全面停产",
-          "url": "https://wallstreetcn.com/articles/3766502",
-          "source": "华尔街见闻",
+          "title": "美股三大股指集体收跌",
+          "url": "https://www.toutiao.com/trending/7613172651149757958/",
+          "source": "今日头条",
           "ranks": [
-            5
+            10
           ],
           "is_new": false,
           "appearance_count": 2,
-          "time_info": "[09时17分 ~ 09时18分]"
+          "time_info": "[09时13分 ~ 09时14分]"
         },
         {
-          "title": "内盘集运欧线、原油期货主力合约涨停。",
-          "url": "https://wallstreetcn.com/livenews/3062263",
-          "source": "华尔街见闻-快讯",
-          "ranks": [
-            5
-          ],
-          "is_new": true,
-          "appearance_count": 1,
-          "time_info": "09时18分"
-        },
-        {
-          "title": "近十年第二次涨停！百亿资金“扫货”中石油，油气ETF全线溢价，这些份额近期陡升",
-          "url": "https://www.cls.cn/detail/2300014",
+          "title": "战火升级点燃恐慌情绪 美股三大期指均跌超1% | 今夜看点",
+          "url": "https://www.cls.cn/detail/2301690",
           "source": "财联社热门",
           "ranks": [
-            7
+            10
           ],
           "is_new": false,
           "appearance_count": 2,
-          "time_info": "[09时17分 ~ 09时18分]"
-        },
-        {
-          "title": "美油轮被炸,石油价格暴涨",
-          "url": "https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28351204&amp;topic_name=%E7%BE%8E%E6%B2%B9%E8%BD%AE%E8%A2%AB%E7%82%B8%2C%E7%9F%B3%E6%B2%B9%E4%BB%B7%E6%A0%BC%E6%9A%B4%E6%B6%A8",
-          "source": "贴吧",
-          "ranks": [
-            21
-          ],
-          "is_new": false,
-          "appearance_count": 2,
-          "time_info": "[09时17分 ~ 09时18分]"
-        },
-        {
-          "title": "商品期货开盘，原油主力合约涨超11%，燃料油涨超10%，集运欧线涨超7%，液化气涨超6%，LU燃油、甲醇涨超5%，沪金涨超1%。沪锡跌超5%，碳酸锂跌超3%，沪银、沪镍跌超2%。",
-          "url": "https://wallstreetcn.com/livenews/3062259",
-          "source": "华尔街见闻-快讯",
-          "ranks": [
-            7
-          ],
-          "is_new": true,
-          "appearance_count": 1,
-          "time_info": "09时18分"
-        },
-        {
-          "title": "越南主要液化石油气批发商越南油气总公司旗下部门在致客户通知中表示，无法接收来自中东的液化石油气，预计交货将出现延迟。",
-          "url": "https://wallstreetcn.com/livenews/3062253",
-          "source": "华尔街见闻-快讯",
-          "ranks": [
-            12
-          ],
-          "is_new": true,
-          "appearance_count": 1,
-          "time_info": "09时18分"
-        },
-        {
-          "title": "韩国称，如有必要，将寻求从中东以外的地区获取石油。 即便当前局势持续下去，韩国也有充足的原油储备。（彭博）",
-          "url": "https://wallstreetcn.com/livenews/3062244",
-          "source": "华尔街见闻-快讯",
-          "ranks": [
-            21
-          ],
-          "is_new": true,
-          "appearance_count": 1,
-          "time_info": "09时18分"
-        }
-      ]
-    },
-    {
-      "keyword_group": "华为 苹果 特斯拉 微软 谷歌",
-      "match_count": 5,
-      "titles": [
-        {
-          "title": "苹果3月新品第一弹",
-          "url": "https://search.bilibili.com/all?keyword=%E8%8B%B9%E6%9E%9C3%E6%9C%88%E6%96%B0%E5%93%81%E7%AC%AC%E4%B8%80%E5%BC%B9",
-          "source": "bilibili 热搜",
-          "ranks": [
-            9
-          ],
-          "is_new": false,
-          "appearance_count": 2,
-          "time_info": "[09时17分 ~ 09时18分]"
-        },
-        {
-          "title": "特斯拉为什么要坚持纯视觉路线?",
-          "url": "https://www.zhihu.com/question/662049831",
-          "source": "知乎",
-          "ranks": [
-            12
-          ],
-          "is_new": false,
-          "appearance_count": 2,
-          "time_info": "[09时17分 ~ 09时18分]"
-        },
-        {
-          "title": "特斯拉为什么销量比国产电车好？",
-          "url": "https://www.zhihu.com/question/13039955778",
-          "source": "知乎",
-          "ranks": [
-            14
-          ],
-          "is_new": false,
-          "appearance_count": 2,
-          "time_info": "[09时17分 ~ 09时18分]"
-        },
-        {
-          "title": "苹果推出大量粉色配件",
-          "url": "https://s.weibo.com/weibo?q=%23%E8%8B%B9%E6%9E%9C%E6%8E%A8%E5%87%BA%E5%A4%A7%E9%87%8F%E7%B2%89%E8%89%B2%E9%85%8D%E4%BB%B6%23&t=31&band_rank=25&Refer=top",
-          "source": "微博",
-          "ranks": [
-            25
-          ],
-          "is_new": false,
-          "appearance_count": 2,
-          "time_info": "[09时17分 ~ 09时18分]"
-        },
-        {
-          "title": "苹果2026春季发布会前瞻",
-          "url": "https://search.bilibili.com/all?keyword=%E8%8B%B9%E6%9E%9C2026%E6%98%A5%E5%AD%A3%E5%8F%91%E5%B8%83%E4%BC%9A%E5%89%8D%E7%9E%BB",
-          "source": "bilibili 热搜",
-          "ranks": [
-            27
-          ],
-          "is_new": false,
-          "appearance_count": 2,
-          "time_info": "[09时17分 ~ 09时18分]"
+          "time_info": "[09时13分 ~ 09时14分]"
         }
       ]
     },
@@ -268,171 +319,48 @@
       "match_count": 4,
       "titles": [
         {
-          "title": "越来越多国家被卷入中东冲突",
-          "url": "https://s.weibo.com/weibo?q=%23%E8%B6%8A%E6%9D%A5%E8%B6%8A%E5%A4%9A%E5%9B%BD%E5%AE%B6%E8%A2%AB%E5%8D%B7%E5%85%A5%E4%B8%AD%E4%B8%9C%E5%86%B2%E7%AA%81%23&t=31&band_rank=1&Refer=top",
-          "source": "微博",
-          "ranks": [
-            1
-          ],
-          "is_new": false,
-          "appearance_count": 2,
-          "time_info": "[09时17分 ~ 09时18分]"
-        },
-        {
-          "title": "美伊冲突冲击全球供应链：多家航运巨头紧急涨价 中东空运遭严重干扰",
-          "url": "https://www.cls.cn/detail/2300033",
-          "source": "财联社热门",
-          "ranks": [
-            5
-          ],
-          "is_new": false,
-          "appearance_count": 2,
-          "time_info": "[09时17分 ~ 09时18分]"
-        },
-        {
-          "title": "美以伊冲突对中东局势影响几何",
-          "url": "https://search.bilibili.com/all?keyword=%E7%BE%8E%E4%BB%A5%E4%BC%8A%E5%86%B2%E7%AA%81%E5%AF%B9%E4%B8%AD%E4%B8%9C%E5%B1%80%E5%8A%BF%E5%BD%B1%E5%93%8D%E5%87%A0%E4%BD%95",
-          "source": "bilibili 热搜",
-          "ranks": [
-            30
-          ],
-          "is_new": false,
-          "appearance_count": 2,
-          "time_info": "[09时17分 ~ 09时18分]"
-        },
-        {
-          "title": "亚马逊云服务(AWS)：由于中东地区持续冲突，受波及的两个地区均因无人机袭击遭受了基础设施的物理破坏。这些袭击已造成结构性损坏，并中断了我们基础设施的电力供应。",
-          "url": "https://flash.jin10.com/detail/20260303082217493800",
-          "source": "金十数据",
-          "ranks": [
-            28
-          ],
-          "is_new": true,
-          "appearance_count": 1,
-          "time_info": "09时18分"
-        }
-      ]
-    },
-    {
-      "keyword_group": "美股 纳斯达克 道琼斯 标普500",
-      "match_count": 3,
-      "titles": [
-        {
-          "title": "能源和科技股力撑，美股指走V收复失地，原油暴涨重创美债，美元大涨，黄金冲高回落",
-          "url": "https://wallstreetcn.com/articles/3766477",
+          "title": "冲突升级！美伊双方都“不惜代价”，特朗普吹嘘“无限”弹药，并将很快回应大使馆遇袭",
+          "url": "https://wallstreetcn.com/articles/3766606",
           "source": "华尔街见闻",
-          "ranks": [
-            1
-          ],
-          "is_new": false,
-          "appearance_count": 2,
-          "time_info": "[09时17分 ~ 09时18分]"
-        },
-        {
-          "title": "美股收盘：地缘冲突下市场剧烈波动 三大股指涨跌不一",
-          "url": "https://www.cls.cn/detail/2300479",
-          "source": "财联社热门",
-          "ranks": [
-            3
-          ],
-          "is_new": false,
-          "appearance_count": 2,
-          "time_info": "[09时17分 ~ 09时18分]"
-        },
-        {
-          "title": "高盛交易员认为美股反弹前将经历“痛苦”之路",
-          "url": "https://wallstreetcn.com/livenews/3062256",
-          "source": "华尔街见闻-快讯",
-          "ranks": [
-            9
-          ],
-          "is_new": true,
-          "appearance_count": 1,
-          "time_info": "09时18分"
-        }
-      ]
-    },
-    {
-      "keyword_group": "黄金 金价",
-      "match_count": 2,
-      "titles": [
-        {
-          "title": "油气主题基金集体涨停，黄金ETF同步飙升，下一步怎么走？",
-          "url": "https://m.thepaper.cn/newsDetail_forward_32683211",
-          "source": "澎湃新闻",
-          "ranks": [
-            19
-          ],
-          "is_new": false,
-          "appearance_count": 2,
-          "time_info": "[09时17分 ~ 09时18分]"
-        },
-        {
-          "title": "黄金白银双双快速跳水",
-          "url": "https://s.weibo.com/weibo?q=%23%E9%BB%84%E9%87%91%E7%99%BD%E9%93%B6%E5%8F%8C%E5%8F%8C%E5%BF%AB%E9%80%9F%E8%B7%B3%E6%B0%B4%23&t=31&band_rank=21&Refer=top",
-          "source": "微博",
-          "ranks": [
-            21
-          ],
-          "is_new": false,
-          "appearance_count": 2,
-          "time_info": "[09时17分 ~ 09时18分]"
-        }
-      ]
-    },
-    {
-      "keyword_group": "制造业 工业",
-      "match_count": 2,
-      "titles": [
-        {
-          "title": "韩国2月汇丰制造业PMI 51.1，前值51.2。",
-          "url": "https://flash.jin10.com/detail/20260303083002128800",
-          "source": "金十数据",
-          "ranks": [
-            21
-          ],
-          "is_new": true,
-          "appearance_count": 1,
-          "time_info": "09时18分"
-        },
-        {
-          "title": "韩国2月制造业PMI 51.1，前值 51.2。",
-          "url": "https://wallstreetcn.com/livenews/3062236",
-          "source": "华尔街见闻-快讯",
-          "ranks": [
-            29
-          ],
-          "is_new": true,
-          "appearance_count": 1,
-          "time_info": "09时18分"
-        }
-      ]
-    },
-    {
-      "keyword_group": "金融 银行",
-      "match_count": 2,
-      "titles": [
-        {
-          "title": "韩国副财长：政府将密切关注能源和金融市场。",
-          "url": "https://flash.jin10.com/detail/20260303084748356800",
-          "source": "金十数据",
           "ranks": [
             2
           ],
-          "is_new": true,
-          "appearance_count": 1,
-          "time_info": "09时18分"
+          "is_new": false,
+          "appearance_count": 2,
+          "time_info": "[09时13分 ~ 09时14分]"
         },
         {
-          "title": "韩国副财长：将密切监控能源及金融市场。",
-          "url": "https://wallstreetcn.com/livenews/3062249",
-          "source": "华尔街见闻-快讯",
+          "title": "冲突升级恐慌蔓延！现货黄金失守5000美元关口 道指跌逾1200点",
+          "url": "https://www.cls.cn/detail/2301803",
+          "source": "财联社热门",
           "ranks": [
-            16
+            7
           ],
-          "is_new": true,
-          "appearance_count": 1,
-          "time_info": "09时18分"
+          "is_new": false,
+          "appearance_count": 2,
+          "time_info": "[09时13分 ~ 09时14分]"
+        },
+        {
+          "title": "美以与伊朗爆发冲突后，当前中东各国家的生活现状是什么样子的？有身在当地的人说一下吗？",
+          "url": "https://www.zhihu.com/question/2011441101551133704",
+          "source": "知乎",
+          "ranks": [
+            11
+          ],
+          "is_new": false,
+          "appearance_count": 2,
+          "time_info": "[09时13分 ~ 09时14分]"
+        },
+        {
+          "title": "中东冲突让日韩一起慌了",
+          "url": "https://s.weibo.com/weibo?q=%23%E4%B8%AD%E4%B8%9C%E5%86%B2%E7%AA%81%E8%AE%A9%E6%97%A5%E9%9F%A9%E4%B8%80%E8%B5%B7%E6%85%8C%E4%BA%86%23&t=31&band_rank=27&Refer=top",
+          "source": "微博",
+          "ranks": [
+            27
+          ],
+          "is_new": false,
+          "appearance_count": 2,
+          "time_info": "[09时13分 ~ 09时14分]"
         }
       ]
     },
@@ -441,15 +369,117 @@
       "match_count": 1,
       "titles": [
         {
-          "title": "中东战云密布，A股波澜不惊？十大基金公司解盘：黄金、原油、AI谁主沉浮",
-          "url": "https://www.cls.cn/detail/2300191",
-          "source": "财联社热门",
+          "title": "金十数据整理：A股盘前市场要闻速递（2026-03-04）",
+          "url": "https://flash.jin10.com/detail/20260304090121946800",
+          "source": "金十数据",
           "ranks": [
-            12
+            5
+          ],
+          "is_new": true,
+          "appearance_count": 1,
+          "time_info": "09时14分"
+        }
+      ]
+    },
+    {
+      "keyword_group": "5G 6G 通信技术",
+      "match_count": 1,
+      "titles": [
+        {
+          "title": "华为李鹏：5G-A将释放技术红利",
+          "url": "https://www.toutiao.com/trending/7612632836864884790/",
+          "source": "今日头条",
+          "ranks": [
+            23
           ],
           "is_new": false,
           "appearance_count": 2,
-          "time_info": "[09时17分 ~ 09时18分]"
+          "time_info": "[09时13分 ~ 09时14分]"
+        }
+      ]
+    },
+    {
+      "keyword_group": "并购 收购 重组",
+      "match_count": 1,
+      "titles": [
+        {
+          "title": "知情人士称，小米的联合创始人林斌已达成协议，将以125亿美元的估值收购迈阿密海豚队1%的股份。（彭博）",
+          "url": "https://wallstreetcn.com/livenews/3063112",
+          "source": "华尔街见闻-快讯",
+          "ranks": [
+            17
+          ],
+          "is_new": true,
+          "appearance_count": 1,
+          "time_info": "09时14分"
+        }
+      ]
+    },
+    {
+      "keyword_group": "央行 货币政策 降息 降准 加息",
+      "match_count": 1,
+      "titles": [
+        {
+          "title": "韩国央行：将密切关注汇率和利率的过度波动。 外汇、利率和股票市场的波动可能还会持续。 韩国央行与政府将协同行动，必要时应对市场跟风行为。",
+          "url": "https://wallstreetcn.com/livenews/3063098",
+          "source": "华尔街见闻-快讯",
+          "ranks": [
+            30
+          ],
+          "is_new": true,
+          "appearance_count": 1,
+          "time_info": "09时14分"
+        }
+      ]
+    },
+    {
+      "keyword_group": "华为 苹果 特斯拉 微软 谷歌",
+      "match_count": 1,
+      "titles": [
+        {
+          "title": "苹果新品哪些值得买",
+          "url": "https://search.bilibili.com/all?keyword=%E8%8B%B9%E6%9E%9C%E6%96%B0%E5%93%81%E5%93%AA%E4%BA%9B%E5%80%BC%E5%BE%97%E4%B9%B0",
+          "source": "bilibili 热搜",
+          "ranks": [
+            9
+          ],
+          "is_new": false,
+          "appearance_count": 2,
+          "time_info": "[09时13分 ~ 09时14分]"
+        }
+      ]
+    },
+    {
+      "keyword_group": "制造业 工业",
+      "match_count": 1,
+      "titles": [
+        {
+          "title": "中国香港2月标普全球制造业PMI 53.3，前值52.3。",
+          "url": "https://flash.jin10.com/detail/20260304083002120800",
+          "source": "金十数据",
+          "ranks": [
+            27
+          ],
+          "is_new": true,
+          "appearance_count": 1,
+          "time_info": "09时14分"
+        }
+      ]
+    },
+    {
+      "keyword_group": "金融 银行",
+      "match_count": 1,
+      "titles": [
+        {
+          "title": "超二十家车企开打“金融战”",
+          "url": "https://www.baidu.com/s?wd=%E8%B6%85%E4%BA%8C%E5%8D%81%E5%AE%B6%E8%BD%A6%E4%BC%81%E5%BC%80%E6%89%93%E2%80%9C%E9%87%91%E8%9E%8D%E6%88%98%E2%80%9D",
+          "source": "百度热搜",
+          "ranks": [
+            9
+          ],
+          "is_new": false,
+          "appearance_count": 2,
+          "time_info": "[09时13分 ~ 09时14分]"
         }
       ]
     }
